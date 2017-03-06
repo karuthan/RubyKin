@@ -1,7 +1,7 @@
-# What is programming?
+# நிரலாக்கம் என்றால் என்ன ?
 
 
-Programming is language. We use language to communicate with our friends. We use programming to communicate with our computers.
+நிரலாக்கம் என்பது ஒரு வகை மொழி. நமது நண்பர்களுடன், பெற்றோர், குடும்பம் போல எல்லோருடனும் தமிழில், ஆங்கிலத்தில் நாம் பேசுவோம் - அதே போல கணினியுடன் பேசுவதற்கு நிரலாக்கம் என்பது ஒரு கணினியுடன் உரையாடும் மொழி.
 
 A program is nothing more than a set of instructions for the computer to execute. These instructions outline the plan or project, like a blueprint for a house. Without a blueprint, the builders wouldn’t know what the architect wants, just like the computer doesn’t know how to create what _you_ want without a program.
 
