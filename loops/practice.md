@@ -1,31 +1,34 @@
-__Practice__
+__பயிற்சி__
 
-Let’s pretend we’re at the beach, patiently waiting for our wizard to arrive at sunset. Upon every hour we check to see if our wizard has arrived. We could represent this as a piece of code. More specifically, we could write this as a while loop. Let’s assume the sun sets around 7pm, and we start waiting on the beach at 5pm.
+நாம் கடற்கரையில் நமது மாயாவியிர்க்காக காத்திருக்கிறோம் என்று எண்ணிக்கொள்வோம்; சூரியன் அஸ்தமனம் ஆகும் பொன் மாலை நேரம். நாம் ஒவ்வொரும் மணி நேரம் கழியும் நேரத்திலும் மாயாவி வந்துவிட்டாரா என்று பார்க்கிறோம். இதனை Ruby மொழியில் இப்படி எழுதலாம் - அதாவது 'while' என்ற மடக்கு கட்டளையில் வழியாக. ஒரு 7-மணி மலையில் சூரியன் அஸ்தமிக்கும் என்று கொள்ளுங்கள்; நாம் 5 மணி மாலை அளவில் கடற்கரையில் வந்தோம் என்று கொள்ளுங்கள்.
 
 ```ruby
-sunset = 7
-current_time = 5
+சூரியன்_மறைவது = 7
+நேரம்_இப்போது = 5
 ```
 
-We create a variable called sunset and give it the value 7. We do the same for current_time and set it to 5.
+மேல் உள்ள நிரலில் 'சூரியன்_மறைவது' என்று ஒரு மாறியில் 7 என்று கொடுத்தோம்; 'நேரம்_இப்போது' என்ற மாறியில் 5 என்று கொடுத்தோம்.
 
 ```ruby
-while current_time <= sunset do
-  puts "Still waiting for the wizard."
-  puts "It’s now #{current_time} o’clock"
-  current_time = current_time + 1
+while நேரம்_இப்போது <= சூரியன்_மறைவது do
+  puts "இன்னும் மாயாவிக்கு காத்திருக்கிறோம்."
+  puts "இப்போது நேரம்  #{நேரம்_இப்போது} மணி மாலை"
+  நேரம்_இப்போது = நேரம்_இப்போது + 1
 end
-puts "The wizard has arrived!"
+puts "மாயாவி வந்தார்!"
 ```
 
-This while loop would result in this output:
+இந்த 'while' மடக்கு கட்டளையின் வெளிப்பாடு கீழே:
 
 ```
-Still waiting for the wizard. It’s now 5 o’clock
-Still waiting for the wizard. It’s now 6 o’clock
-Still waiting for the wizard. It’s now 7 o’clock
-The wizard has arrived!
+இன்னும் மாயாவிக்கு காத்திருக்கிறோம்.
+இப்போது நேரம்  5 மணி மாலை
+இன்னும் மாயாவிக்கு காத்திருக்கிறோம்.
+இப்போது நேரம்  6 மணி மாலை
+இன்னும் மாயாவிக்கு காத்திருக்கிறோம்.
+இப்போது நேரம்  7 மணி மாலை
+மாயாவி வந்தார்!
 ```
 
-1) What’s the current value of the current_time variable?
+1) முடிவில் 'இப்போது_நேரம்' என்பதன் மதிப்பு என்ன ?
 
