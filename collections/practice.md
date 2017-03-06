@@ -1,33 +1,19 @@
-__Practice__
+__பயிற்சி__
 
-#####Arrays
+#####அணிகள்
 
-1) Put the following kids in an array. Joe, Sally, Tom,
-Mary, Doug. Now sort them alphabetically using a standard
-Ruby method. What's the resulting array?
+1) இந்த குழந்தைகளின் பெயர்களை 'kid_array' என்ற ஒரு அணியில் திரட்டுங்கள்: சிவா, அலர்மேல் மங்கை, பூர்ணிமா, கவிதா, சேகர், நாச்சம்மை. ஆண் மற்றும் பெண் குழந்தைகளின் பெயர்களை அகரமுதலி வரிசைப்படுத்த; விடை என்ன ?
 
-2) With your kid_array from question 1, separate the boys
-and girls into their own arrays. Then put your two new
-arrays into one array called "group". What is the least
-amount of lines required to write this code?
+2)  'kid_array' என்ற அணியில் இருந்து ஆண் மற்றும் பெண் குழந்தை பெயர்களை தனி தனி அணிகளில் இடுக; மேலும் இந்த இரண்டு அணிகளையும் ஒரு "குழு" என்ற அணியில் இடுக. இதனை செய்ய எவ்வளவு சிறியதான நிரலை எழுதலாம் ?
 
-3) Now you should have one "group" array with two arrays
-nested inside. How might we reverse the order of each
-array?
-Hint: Ruby methods tend to be named by what they do.
+3) 'group' என்ற குழு அணியில் உள்ள 'boy_array' மற்றும் 'girl_array' என்பதை எப்படி வரிசை மாற்றலாம்?
 
-4) Our class group has added one student, Tiffany.
-Add her to the girls list in our group array. What does
-our array look like now?
+4) நமது வகுப்பில் 'டிப்பாணி' என்ற சிறுமி அமெரிக்காவில் இருந்து சேர்ந்தாள்; இவளை எப்படி 'குழு அணியில்' சேர்ப்பீர்கள் ?
 
-5) Imagine our list of boys and girls is much larger than
-just three. If each class can only have an equal number of
-boys and girls, how might a teacher ensure her lists are
-equal? Hint: You can use the count method to count the
-number of elements in an array.
+5) வகுப்பு வாத்யார் எப்படி வகுப்பில் சரிசமம் பையன்களும் பொண்ணுங்களும் இருப்பார்கள் என்று சரிபார்க்கலாம் ? இதற்க்கு என்ன நிரல் துண்டு உதவும். உதவி குறிப்பு: அணியின் நீளம் என்பது இங்கு எதனை குறிக்கும் என்று யோசித்து பாருங்கள்.
 
 
-#####Hashes
+#####எண்குறி அடைவு
 
 1) Create a hash for the Wizard’s magic bag. Inside the
 bag, we’ll put 3 frogs, 5 herbs, and 10 scrolls. Assign
