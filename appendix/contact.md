@@ -9,8 +9,8 @@ Email   > mrdougwright@gmail.com
 Blog    > dogwithrug.com
 
 # __Translation__
-##___Tamil Language___
-Tamil translation contributed by Ezhil Language Foundation.
+##___Tamil Language (தமிழ் மொழிபெயர்ப்பு பற்றி)___
+Tamil translation contributed by Ezhil Language Foundation. எழில் மொழி அறக்கட்டளை இந்த நூலை மொழி பெயர்ப்பு செய்தது. தொடர்புக்கு இங்குள்ள தொடர்புகளை காணவும்.
 
 Twitter > @ezhillang
 
