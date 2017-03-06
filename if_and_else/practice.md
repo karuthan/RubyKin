@@ -1,27 +1,25 @@
 
-__Practice__
+__பயிற்சி__
 
-What would the computer say? Try to do these in your head before going to IRB. Remember, the answers will be a boolean value, either true or false.
+கணினி இதனை எப்படி மதிப்பிடும் ? IRB-இல் இயக்கம் முன் உங்கள் மனதில் இவற்றை செய்து பாருங்கள். நினைவிருக்கட்டும், விடைகள் இரும 'பூலின்' மதிப்பில் இருக்கும்.
 
-1) Is 3 > 5 ?
+1) 3 > 5 உண்மையா  ?
 
-2) 3 < 5
+2) 3 < 5 உண்மையா ?பற்றி உள்ள மற்ற கேள்விகள் 
+3) 5 == 5 உண்மையா ?
 
-3) 5 == 5
+4) 10 >= 10 உண்மையா ?
 
-4) 10 >= 10
+5) 10 <= 12 உண்மையா ?
 
-5) 10 <= 12
-
-6) 10 != 10
+6) 10 != 10 உண்மையா ?
 
 7) 10.object\_id == 10.object\_id
 
-What about strings?
+சரம் பற்றி உள்ள மற்ற கேள்விகள் முலையுங்கள் ?
 
-8) "dog" == "cat"
+8) "dog" == "cat" உண்மையா ?
 
-9) "cat" == "cat"
+9) "cat" == "cat" உண்மையா ?
 
-10) "cat.object\_id" == "cat.object\_id"
-
+10) "cat.object\_id" == "cat.object\_id" உண்மையா ?
