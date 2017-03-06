@@ -1,7 +1,6 @@
 __Practice__
 
-Try these problems in your head, or on paper. Then see how they work in the Ruby shell (IRB).
-
+கீழ் கண்ட பயிற்சி படங்களை நீங்கள் தாளில் அல்லது நினைவில் தீர்வு செய்யுங்கள். பின்பு Ruby shell (IRB)-இல் உள்ளிட்டு தீர்வு செய்து பாருங்கள்.
 
 1) 2 + 3 + 5
 
@@ -13,12 +12,12 @@ Try these problems in your head, or on paper. Then see how they work in the Ruby
 
 5) 4 ** 2
 
-Now for some harder ones.
+அடுத்த கட்டத்து பாடங்களை கீழே முயற்சி செய்யுங்கள்.
 
-6) What is the result of 11 % 5 ?
+6) இதன்  11 % 5 விடை என்ன ?
 
-7) What is 14 % 3 ?
+7) இதன்  14 % 3 விடை என்ன ?
 
-8) A wizard carries two numbers (one even and one odd) in each hand. He won't open his hands to show you, but he will let you use modulo. Your task is to find out which hand holds an even number, and which holds the odd.
+8) ஒரு மாயாவி அவன் இரு கையில் இரண்டு எண்களை கொண்டவன் - ஒரு எண் ஒற்றைப்படை இரண்டாவது இரட்டை படை எண். இவன் உங்களுக்கு எந்த கையில் எந்த எண் உள்ளது என்று சொல்லமாட்டான்  - modulo '%' செயலுருபு பயன்படுத்தி இதனை உங்களால் கண்டெடுக்க முடியுமா ?
 
-Hint: A number divided by two, with no remainder, is even.
+உதவி குறிப்பு: இரட்டித்த எண் என்றால் '% 2' வழி வகுத்தால் மீதம் பூஜ்யம்.
