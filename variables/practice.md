@@ -1,15 +1,11 @@
 
-__Practice__
+__பயிற்சி__
 
 
-1) Store the value of 54 / 3 into the variable x. What is
-the value of x?
+1) '54 / 3' மதிப்பை  'x' என்ற மாறிலியில் சேமித்தால் 'x'-இன் மதிப்பு என்ன ?
 
-2) Give the value of x (from problem 1) to y, a new
-variable. Now make x equal to itself divided by 3. What’s
-the value of x? What’s the value of y?
+2) கேள்வி 1-இல் உள்ள  'x' மாறிலியின் மதிப்பை 'y' என்பதற்கு அளித்து ஒரு புது 'y' மாறிலி உருவாக்குக. பின்பு 'x' என்பதை 3-ஆல் வகுத்து தனக்கே ஈடு செய்க. தற்போது (இவற்றை எல்லாம் செய்த பின்) 'x', 'y' இவற்றின் மதிப்பு என்ன ?
 
-3) What if we performed some math on our variables? If we
-set x to 12, what’s x divided by 3?
+3) சில கணித கணக்குகளை செய்து பார்க்கலாம்; 'x'-ஐ 12 என்ற மதிப்பிற்கு இடுக. அதன்பின் 'x' 3-ஆல் வெகு - இதன்பின் 'x'-இன் மதிப்பு என்ன?
 
-4) What’s the value of x now?
+4) தற்போது 'x'-இன் மதிப்பு என்ன ?
