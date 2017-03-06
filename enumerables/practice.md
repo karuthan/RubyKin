@@ -1,22 +1,20 @@
-__Practice__
+__பயிற்சி__
 
 
-1) What numbers will the following code output?
+1) இந்த நிரல் துண்டு என்ன எண்களை வெளியீடு செய்யும் ?
    `[1,2,3,4,5].each { |num| puts num if num.odd? }`
 
-2) What would this each method output from this string?
+2) கீழே உள்ள 'each' என்ற ஒவ்வொன்றாக சார்பு என்ன வெளியீடு தரும் ?
    ```ruby
      "ThisdmakesdmoredsensedwithoutdD's".split("d").each {
       |letter| puts letter
     }
    ```
 
-   Note: We are method chaining in the above example.
-   The string is being split into smaller separate
-   strings at the parameter passed in. Then the each
-   method is called on that array.
-
-3) What does select do for this hash?
+   குறிப்பு : இங்கு சார்புகளை கோர்வையாக இணைக்கிறோம் ('method chaining' என்று இதனை கூறுவார்கள்).
+   முதலில் ஒரு சரம் அணி என்பதனை உருவாக்கி பின்பு அந்த அணியில் 'ஒவ்வொன்றாக' என்ற 'each' செயல்பாடை இயக்குகிறோம். இதில் அணி மரிமுகமாகவே உள்ளது.
+   
+3) 'select' என்பது தேர்ந்தெடு வாக்கியம் இந்த எண் சுருக்கு ?
    ```ruby
    food = {
      "apple" => "fruit",
