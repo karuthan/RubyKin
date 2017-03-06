@@ -1,22 +1,22 @@
 
-__Practice__
+__பயிற்சி__
 
 
-1) What is the name of the method below?
+1) இந்த (கீழ் உள்ள) நிரல்பாகத்தின் சார்பு பெயர் என்ன ?
    ```ruby
    def multiply(num1,num2)
      num1 * num2
    end
    ```
 
-2) How many arguments does this method have?
+2) இந்த நிரல்பாகத்தின் சார்பில் எத்தனை உள்ளீடுகள் உள்ளன ?
    ```ruby
    def meeting(place, time, day)
      ...
    end
    ```
 
-3) What does this method return when called?
+3) இந்த நிரல்பாகத்தின் சார்பு வெளியீடு என்ன ?
 (What's its output?)
    ```ruby
    def calculus
@@ -26,6 +26,5 @@ __Practice__
    end
    ```
 
-4) Write a method that takes a word as an argument.
-Make the method return the word and the string
-`" is awesome!"`.
+4) ஒரு பெயரை உள்ளீடாக கொள்ளும் நிரல்பாகம் சார்பை எழுதுங்கள். இந்த நிரல் வெளியீடு உங்களது உள்ளீடு வார்த்தையை கொண்டு  
+`" சூப்பெராக உள்ளது!"` என்று அளிக்கவும். இதற்க்கு ஏற்ற நிரலை எழுதுங்கள் பார்க்கலாம்!
