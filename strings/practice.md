@@ -1,12 +1,11 @@
 
-__Practice__
+__பயிற்சி__
 
-What is the result of each of the following?
+கீழ் உள்ள நிரல் துண்டுகளின் வெளியீடு என்ன ? (இவற்றை IRB Ruby இல் இயக்கி பார்க்கவும்)
 
+1) puts "இந்த நிரல் துண்டின் " + " வெளியீடு " + "என்ன ?"
 
-1) puts "What is the return result" + " of " + "this operation?"
-
-2) "This string minus" - "That string"
+2) "இந்த சரம் கழித்தல் " - "இந்த சரம்"
 
 3) `"1234.55".to_i`
 
@@ -16,21 +15,20 @@ What is the result of each of the following?
 
 6) `puts "1\n2\n3\n"`
 
-7) Why might it be useful that the to_i (to integer)
-method return zero for strings that can’t be
-represented as numbers?
+7) இந்த மாதிரியான செயல்பாட்டு முறை to_i (to integer)
+எண் வடிவில் மாற்ற முடியாத சரங்களுக்கு பூஜ்யம் வெளியீடு தருவது, ஏன் எங்கு உதவியாக இருக்கும் ?
 
-8) What do you think the length method does?
+8) நீளம் என்கிற 'length' நிரல்பாகம் சார்பு என்ன செய்யும் என்று எண்ணுகிறீர்கள் ?
 `"Count".length`
 
-9) How about the split method?
+9) 'split' செயல்பாடு என்ன செய்யும் ?
 `"Count".split("")`
 
-10) What do you think slice does?
+10) 'slice' செயல்பாடு என்ன செய்யும்?
 `"Count".slice(2)`
 
 
-Want to see more cool String methods? Just call _methods_ on the String class! Type `String.methods` into your IRB:
+String சார்ந்த மாற்ற செயல்பாடுகள் எவை ? _methods_ என்ற செயல்பாடை String வகுப்பில் இயக்குங்கள் ! `String.methods` என்று தடச்ச்சு செய்யுங்கள் IRB:
 
 `IRB$  String.methods`
 `# some of the built-in Ruby methods for String`
