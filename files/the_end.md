@@ -1,8 +1,8 @@
-Congratulations!
+வாழ்த்துக்கள்!
 
-You’ve just finished the first book _ever_ for Ruby for kids. Now, move to Silicon Valley and ask your parents for some seed funding. Soon you will have raised a Series A round and have a large equity stake in your very own tech startup! In no time, you will be able to give your parents an allowance.
+நீங்கள் கலசலாக சிறுவகளுக்கென எழுதப்பட்ட முதல் ரூபி புத்தகத்தை முடித்துவிட்டீர்கள்! சபாஷ்! அடுத்து பாங்கில் லோன் எடுத்து பெங்களூரில் ஒரு நிறுவனத்தை அரமித்துவிடவேண்டியது தானே - இல்லை ஒரு வேளை அதையும் பண்ணலாம்.
 
-In all seriousness, one of the beauties of programming is that there is always more to learn. You have crossed one of the most difficult hurdles by simply finishing this book, but this is only the tip of the ice berg. Check out the many resources online to learn more about Ruby and other great languages, go through some tutorials, start building things and hone your craft.
+சற்று தீவிரமாக யோசித்தால் நிரலாக்கல் என்பதில் என்றும் கற்றுக்கொள்ள கடலளவு உள்ளது. உங்கள் முயற்சி இந்த கடலில் கால் நனைத்தது போலவே அமையும். உங்களுக்கு நேரம் கிடைக்கையில் நிரலாக்கல் பற்றி கணினியில் கற்று கொள்ளுங்கள் - மற்ற நிரலாக்கல் மொழிகள்  Python, எழில், C, C++, Java என்றும் கற்று கொள்ளலாம் - சில பயிற்சி படங்களையும் முயலுங்கள், அதில் கற்றதில் நிரல்களை செயலிகளை உருவாக்குங்கள், உங்கள் திறமையை மேம்படுத்துங்கள்.
 
 <br />
-Happy hacking!
+வாழ்க நிரலாக்கல்.
