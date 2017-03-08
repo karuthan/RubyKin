@@ -1,5 +1,5 @@
 
-Why do we need to speak a strange language to communicate with computers?
+உங்கள் கணினியிடம் "ஒரு படம் எடு", இல்லை "ஞாயிறு மாலை 5 மணி அளவில் என்ன எழுப்பு" என்று சொன்னால் அதற்க்கு புரியுமா ? நேராக சொன்னால் புரியாது. காரணம் கணினியில் அதற்க்கு ஒரு தனிப்பட்ட மொழியே புரியும் - இதனை "machine language" இயந்திர மொழி என்று கூறலாம். சராசரியாக இப்படி கணினியிடம் பேசுவதற்கு இயந்திர மொழி என்பது பதில் கணினி நிரலாக்க மொழி மிக முக்கியமானது.
 
 Computers are a bit like dogs. They are great companions, but you need to give them commands to tell them what you want them to do. There are a lot of different programming languages, just like there are a lot of foreign languages. However, just as there are similarities in German, French or Spanish, there are similarities across programming languages, like JavaScript, Ruby or Python.
 
@@ -8,8 +8,7 @@ This book will help you learn the basics of programming, using the Ruby language
 Each chapter will go into more detail with basics at the beginning and more complicated material at the end. For now, let’s get started with some simple ideas.
 
 
-__Integers, Floats and Strings__...and maybe Ice Cream
-
+__முழு எண், மெய்யெண், சரம்__... போன்ற அடிப்படை வகைகள்
 ![Art by Vixuong Hong](http://rubykin.com/images/rootbeer_float.png)
 
 Before we can understand how to write programs, we need to understand data. Data is simply information that you can input (give), output (get), store or manipulate with a computer. The two fundamental types of data used in almost every programming language are _numbers_ and _strings_.
