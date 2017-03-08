@@ -11,7 +11,7 @@ Each chapter will go into more detail with basics at the beginning and more comp
 __முழு எண், மெய்யெண், சரம்__... போன்ற அடிப்படை வகைகள்
 ![Art by Vixuong Hong](http://rubykin.com/images/rootbeer_float.png)
 
-Before we can understand how to write programs, we need to understand data. Data is simply information that you can input (give), output (get), store or manipulate with a computer. The two fundamental types of data used in almost every programming language are _numbers_ and _strings_.
+நிரல் எழுதுவதுக்கு முன் நம்ம தரவு மதிப்புகளை பற்றி அறிந்து கொள்ளவது முக்கியம். Data is simply information that you can input (give), output (get), store or manipulate with a computer. The two fundamental types of data used in almost every programming language are _numbers_ and _strings_.
 
 Numbers come in two tasty flavors. Integers, which are whole numbers without a decimal point, and floats, numbers that contain a decimal.
 
