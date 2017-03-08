@@ -1,7 +1,6 @@
-# Numbers
+# எண்கள்
 
-
-Do you know basic math? Great, so does Ruby! Ruby uses the same adding, subtracting, multiplication and division that you do.
+உங்களுக்கு கூட்டல், கழித்தல், பெருக்கல், வகுத்தல் எல்லாம் தெரியுமா ? சபாஷ், ரூபி மொழிக்கும் அதெல்லாம் தெரியும்! நீங்கள் எப்படி இந்த கூட்டல், கழித்தல், பெருக்கல், வகுத்தல் எல்லாம் செய்வீங்களோ அதேமாதிரி ரூபியும் செய்யும்.
 
   ```ruby
   2 + 2 => 4
@@ -10,17 +9,16 @@ Do you know basic math? Great, so does Ruby! Ruby uses the same adding, subtract
   4 / 2 => 2
   ```
 
-Ruby can also perform logical operations, such as greater than `>` and less than `<`.
+ரூபி தர்க ரீதியான பெரியது  `>` and கம்மியானது `<` செயலுறுப்புகளையும் பிரியும்; செயலுருபு என்ற ஒரு கணிதம் அல்ல கணினி செயல் என்று பொருள் -  கூட்டல், கழித்தல் எல்லாம் ஒரு செயலுருபு என்றும் சொல்லலாம்.
 
   ```ruby
-  4 > 2 => true
-  7 < 2 => false
-  3 >= 3 => true
-  0 <= 1 => true
+  4 > 2 => மெய் 
+  7 < 2 => பொய்
+  3 >= 3 => மெய்
+  0 <= 1 => மெய்
   ```
-
-You can try these simple commands yourself, but first you need to have Ruby installed on your computer.
-
+  
+  நீங்களே இந்த கட்டளைகளை ரூபி இயக்கியில் செயல்படுத்தலாம் - அனால் அதற்க்கு ரூபி உங்கள் கணினியில் நிறுவ பட வேண்டும்.
 
 __Installing Ruby__
 
