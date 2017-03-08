@@ -48,12 +48,12 @@ IRB stands for Interactive Ruby Shell. An Interactive Ruby Shell is like a littl
 Curious about the `=>` arrows? Ruby engineers like to call these hash rockets. You will see that typing `3 + 2` or any other thing into IRB will always return a value, signified by the pointer `=>`.
 
 <br />
-__A bit more math__
+__சிறு துளி கணிதம்__
 
-Programming languages like Ruby can perform a _lot_ of mathematical equations and expressions. Now that we can see how Ruby performs addition, subtraction, multiplication and division, we'll see how she handles exponents and the oh-so-cool modulo!
+ரூபி போன்ற நிரல் மொழிகள் _பல மடங்கு_ பெரிய கணித கணக்குகளை இயக்கம் தன்மை கொண்டது; நமக்கு சலித்து போகும் படி கணினி சலிக்காமல், சளைக்காமல் வேலை செய்து விடை சொல்லும். இந்த பக்கத்தில் அடுத்த கட்டமான கணித செயலுறுப்புகளை வகுத்தல்மீதம் (modulo), மற்றும் அடுக்குக்குறி (exponent)-களை ரூபி கையாள்கிறது என்று பார்ப்போம்!
 
 
-__Exponents__
+__அடுக்குக்குறி__
 
 Exponents tell a number how many times it should be multiplied. For example, 2 times 2 equals 4, 4 times 2 equals 8. So, 2^3 means 2 times 2 times 2, or 8. Don't worry about exponents if they are unfamiliar to you. They are not necessary to learn programming! Ruby uses two stars to signify an exponent math expression:
 
@@ -66,7 +66,7 @@ Exponents tell a number how many times it should be multiplied. For example, 2 t
   ```
 
 
-__Modulo__
+__வகுத்தல்மீதம்__
 
 In addition to these standard math operations, the computer has something called the modulo operator, which is represented using a percent symbol: %. The modulo’s job is to find the remainder after dividing one number with another. The remainder is what is left over, or what remains when you divide one big number by a smaller number. Let's look at an example.
 
