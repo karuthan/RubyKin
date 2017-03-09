@@ -1,8 +1,15 @@
 # நிரலாக்கம் என்றால் என்ன ?
 
+நாம் நண்பர்களுடன் தொடர்புக்கொள்ள, பழகப் பேச்சுமொழி தேவை. அதைப்போல, கணினியுடன் தொடர்புக்கொள்ள, பழக நமக்கு என்ன தேவை ? என்ற கேள்விக்கு விடையே **`நிரலாக்கம்`**. 
 
-நிரலாக்கம் என்பது ஒரு வகை மொழி. நமது நண்பர்களுடன், பெற்றோர், குடும்பம் போல எல்லோருடனும் தமிழில், ஆங்கிலத்தில் நாம் பேசுவோம் - அதே போல கணினியுடன் பேசுவதற்கு நிரலாக்கம் என்பது ஒரு கணினியுடன் உரையாடும் மொழி.
+> **`ஆணை`** என்பது பின்பற்றி நடக்க வேண்டிய விதி என்று பொருள். 
 
-A program is nothing more than a set of instructions for the computer to execute. These instructions outline the plan or project, like a blueprint for a house. Without a blueprint, the builders wouldn’t know what the architect wants, just like the computer doesn’t know how to create what _you_ want without a program.
+**`நிரல்`** என்பது கணினி இயக்கவேண்டிய ஆணைகளின் தொகுப்பு, அவ்வளவு தான். ஒரு வீட்டை எப்படிக் கட்ட வேண்டும் என்று சொல்லத் தேவைப்படும் மூலவரைபடத்தை (*blueprint*) போன்றது, இவ்வாணைகள். 
 
-Learning a programming language is a lot like learning any language. First you start with the basic building blocks--the A, B, C's. Then you start learning how to put those blocks into words, sentences, and eventually commands that will tell your computer what to do.
+மூலவரைபடம் இன்றிக் கட்டிடதொழலாளிக்கு, கட்டுமானி(architect)யின் தேவையை அறிய இயலாது. **`நிரல்`** இல்லாமல், கணினிக்கு என்ன செய்வது என்ற தெரியாது. 
+
+உங்கள் தேவை ஏற்ப நிரலை ஆக்குவதே, **`நிரலாக்கம்`**. 
+
+> நிரலாக்கம் செய்ய உதவும் மொழியை, **நிரல்மொழி** எனலாம். 
+
+நிரல்மொழியைக் கற்பது, மனிதர்கள் பேசும் மொழிகளைக் கற்பதை போன்றதுதான் . முதலில் அடிப்படைக் கூறுகளில் (அ , ஆ ,இ ..) இருந்து தொடங்குவோம். அக்கூறுகளைக் கொண்டு `சொற்கள்`, `சொற்தொடர்கள்` மற்றும்  கணினியைப்  பணிக்க நாம் இட வேண்டிய  `கட்டளைகளை` வரை படிப்படியாக நாம் எளிதில் கற்க முடியும். 
