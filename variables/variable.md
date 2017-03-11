@@ -1,24 +1,22 @@
-# Variables
+# மாறிலி
 
-
-At their simplest, variables are merely storage containers. They help us hold information. You create your own variables, starting with a lowercase letter followed by an equal sign and its value (usually a number or a string, but sometimes more complex code can be stored in a variable). You’ve seen this before in math.
+அடிப்படையில் 'மாறிலி' (variable) என்பது கணினி நினைவகத்தில் (memory) ஒரு இடம் அனால் அதன் மதிப்பு கணினி செயலி ஓடிக்கொண்டிருக்கும் சமயம் மாறிக்கொண்டே இருக்கலாம் என்று பொருள். மாறிலி கணினியில் ஒரு மதிப்பை (data value) சேமித்துக்கொள்ளும் தன்மை உடையது. மாறிலியை உங்கள் நிரலில் பயன்செய்ய ஒரு ஆங்கில கீழ் வரிசை எழுதிதில் ஆரம்பித்து பெயரிடலாம்; அந்த மாறிலியில் மதிப்பை சேர்க்க/சேமிக்க சமன்பாடு செய்யவேண்டும்:
 
 ```
 x = 12
-The value of x is?
+x என்பதன் மதிப்பு என்ன ?
 => 12
 ```
 
-In Ruby, a variable name is defined once you write (almost) anything left of the equal sign. The equal sign (as in most programming languages) is used to _assign_ the value to the right, to the variable. Here are a few more examples of creating variables.
-
+ரூபி மொழியில் மாறிலி என்பது சமன்பாடு குறியின் இடது பக்கம் வரும் சொல். இந்த சமன்பாடு குறி (equal sign) என்பது மிக முக்கியமானது - ஏறக்குறைய எல்லா கட்டளை மொழிகளிலும் (imperative language) இதன் வலது பக்கம் வருவது மாறிலியின் மதிப்பு, இடது பக்கம் வருவது மாறிலியின் பெயர். உதாரணம் கீழே சில ரூபி மொழி மாறிலிகளை பாருங்கள்:
 ```ruby
-myVar = "my string variable"
+myVar = "ஒரு சரம் மதிப்பு கொண்ட மாறிலி myVar"
 a_long_var_name = 42
-myCat = "whiskers"
+myCat = "மீசை வைத்த பூனைக்குட்டி"
 ```
 
 <br />
-__Variable Storage in Memory__
+__நினைவில் எப்படி மாறிலி சேமிக்கப்படுகின்றன ?__
 
 
 With computers, variable storage is slightly different than common math, due to the way memory storage is created. Don't worry if this section seems complicated, you will start to get the hang of it as you write more code.
