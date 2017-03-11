@@ -1,7 +1,10 @@
-# If and Else
+# 'If-Else' ஆனால் இல்லை நிபந்தனை கட்டளை 
 
+ஒருநாள் நீங்கள் படுக்கையில் இருந்து சனிக்கிழமை எழுந்திருக்கிறீங்க: 
 
-"If you clean your room then you can play, or else you won’t." - Mom
+"அறை சுத்தம் ஆனால் நீ  விளையாட செல்லலாம், இல்லை வீட்டில் உள்ளேயே தான் இருக்க வேண்டும்" -அம்மா  
+
+என்ற ஒரு தாளில் எழுத்தி நிபந்தனையாக அம்மா அறை கதவில் ஓட்டினாள்.
 
 _If_ and _else_ statements help Ruby understand what you want her to do and when you want her to do it.
 
