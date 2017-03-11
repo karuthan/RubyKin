@@ -25,7 +25,7 @@
 \strings\string.md => 0.000000 %
 \SUMMARY.md => 50.617284 %
 \variables\practice.md => 71.052632 %
-\variables\variable.md => 0.000000 %
-\what_is_programming\instruction_set.md => 10.701754 %
-\what_is_programming\intro.md => 91.304348 %
-completion => 24.281348%
+\variables\variable.md => 11.910670 %
+\what_is_programming\instruction_set.md => 80.777538 %
+\what_is_programming\intro.md => 90.909091 %
+completion => 27.001055%
