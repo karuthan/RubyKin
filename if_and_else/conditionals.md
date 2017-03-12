@@ -29,7 +29,7 @@ else
   puts "Number is greater than 10"
 end
 ```
-
+ 
 In a conditional, the computer checks to see that the code after the _if_ is true. We call this code a block, which just means a small piece of code that has some function. In this case, our block is
 `X <= 10`.
 
@@ -72,26 +72,27 @@ Here are the basic elements used to evaluate conditionals:
 When checking if an object is _less than_ or _greater than_, we use the same symbols found in math. When checking if some object is equal to another object, we use two equal signs. In Ruby, like many programming languages, one equal sign is used to assign or _give_ a value to a variable. If we want to check that an object is _not equal_ we use an exclamation mark before the equal sign. In Ruby, we could also simply use the word `not`.
 
 <br />
-__What's an object?__
+__நிரலக்த்தில் "பொருள்" என்றால் என்ன ?__
 
-You may have noticed that we keep talking about things as _objects_. To understand a _code object_ think about an object in real life. A ball, a book, or even your dog--these are all different types of objects or physical things. In programming, we try to represent real life objects with code objects.
+நிரலக்த்தில் "பொருள்" என்றால் என்ன என்பதை அறிந்து கொள்ள நிஜ வாழ்க்கையில் "பொருள்" என்றால் என்ன என்பதையும் பார்த்தால் புரிந்து கொள்ள உதவியாக இருக்கும். உங்கள் விளையாட்டு பொருட்கள், செல்ல நாய்குட்டி, பந்து, கிரிக்கெட் பேட் -- இவை எல்லாமே நிஜ வாழ்க்கையில் பொருட்கள் தான். இந்த மாதிரியான நிஜ வாழ்க்கை பொருட்களின் தன்மைகளை கணினியில் குறியீடு செய்ய நம்ம பயன்படுத்த போவது நிரலாக்க "பொருள்" (Object என்று இதனை ஆங்கிலத்தில் கூறுவர்; இதுவே "object oriented programming" என்ற பொருள் நோக்கு நிரலாக்த்திர்க்கு அடிப்படையாக அமைந்த்தது.
 
-For example, if you walk the dogs in your neighborhood, you may know their names in your head. Rex, Sparky, and Spot. But how would a computer know their names? Well, we could represent each _dog_ as a _string_ object in Ruby, like so:
+உதாரணத்திற்கு உங்கள் தெருவில் வாழ்பவர்களின் செல்ல நாய்குட்டிகளை தினமும் நடக்க நீங்கள் கூட்டி செல்வீர்கள் என்று எடுத்து கொள்வோம். இவைகளின் பெயர்கள் : ராமு, சோமு, முத்து. 
+
+ஒருநாள் நீங்கள் இந்த ரூபி புஷ்தகத்தை படித்துவிட்டு, "சரி இந்த நாய்குட்டிகளின் பெயரை நம்ம கணினியில் விடுவோமா?" என்று சிந்தித்தால் எப்படி இதனை சாதிப்பது ? ஏற்கெனவே படித்த "அணி" என்ற தரவமைப்பில் "சரம்" என்று மூன்று பெயர்கள் இடலாம் :
 
 ```ruby
-["Rex", "Sparky", "Spot"]
+["ராமு", "சோமு", "முத்து"]
 ```
 
-In fact, this line of code is actually four objects! Can you see why? We have Rex, Sparky and Spot, that makes three objects. But we also have the list of dogs, which is another object! This is the neat thing about Ruby, _everything_ is an object. Let me say that again.
-
+மேல் உள்ள நிரல் துண்டில் மூன்று சரங்களும் பொருள் என்று ரூபிக்குள் தோற்றமளிக்கும்; அடுத்து இந்த "அணி" என்பதும் நான்காவது பொருள் என்றும் தோன்றும். ஆம் - ரூபியில் எங்கும் பொருள் உள்ளது (அணி), எதிலும் பொருள்  உள்ளது (சரம்).
 <br />
 <div style="text-align: center;">
-__*Everything is an object*__
+__*ரூபியில் எல்லாம் பொருள் மயம்*__
 </div>
 <br />
 
-That means that every thing you have learned so far was a type of object. Numbers, strings, variables, if statements, booleans and even code blocks (such as X < 10)...these are all objects!
+இது முக்கிய பாடம் - இதுவரை புத்தகத்தில் நீங்கள் படித்த ரூபியின் அம்சங்கள் அனைத்தும் பொருள் என்று அமையும் - இவை  எண்கள், சரம், மாறிலிகள், நிபந்தனைகள், இரும தர்க்க வகைகள், ஏன் நிபந்தனை வாக்கியங்கள் கூட ...எல்லாமே "பொருள்" தான்!
 
-Next chapter we'll learn about Loops. (Yep, loops are objects too). Don’t worry, these aren’t the roller coaster type of loops.
+அடுத்த அத்தியாயத்தில் மடக்கு (loop) வாக்கியங்கள் பற்றி கற்போம்  (அதுவும் "பொருள்" தான்!). நீங்கள் இருக்கை பிடிப்பை (seat belt) பிடித்துக்கொள்ள வேண்டாம் - இது roller coaster போன்ற வயிற்றை கலக்கும் நடுவனத்தில் மடிப்புகள் அல்ல - வெறும் மடக்கு கட்டளை தான்.
 
 <div style="height:30px;"></div>
