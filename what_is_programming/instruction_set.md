@@ -1,55 +1,72 @@
 
-உங்கள் கணினியிடம் "ஒரு படம் எடு", இல்லை "ஞாயிறு மாலை 5 மணி அளவில் என்ன எழுப்பு" என்று சொன்னால் அதற்க்கு புரியுமா ? நேராக சொன்னால் புரியாது. காரணம் கணினியில் அதற்க்கு ஒரு தனிப்பட்ட மொழியே புரியும் - இதனை "machine language" இயந்திர மொழி என்று கூறலாம். சராசரியாக இப்படி கணினியிடம் பேசுவதற்கு இயந்திர மொழி என்பது பதில் கணினி நிரலாக்க மொழி மிக முக்கியமானது.
+கணினியிடம் பேச வேறுபட்ட மொழி ஏன் தேவை? 
 
-Computers are a bit like dogs. They are great companions, but you need to give them commands to tell them what you want them to do. There are a lot of different programming languages, just like there are a lot of foreign languages. However, just as there are similarities in German, French or Spanish, there are similarities across programming languages, like JavaScript, Ruby or Python.
+**`கணினி`**, நம் கட்டளைக்குப் பணியும் நாய்க்குட்டிப்  போன்றது. மனிதர்களோடு பேச பல மொழிகள் இருப்பது கணினியோடு பேச பல **`நிரல்மொழி`**கள் உண்டு. 
 
-This book will help you learn the basics of programming, using the Ruby language. The building blocks you learn in this book will help you learn any other programming language.
+தமிழ், மலையாளம், தெலுங்கு போன்ற மொழிகளுள் பல பொதுபண்புகள் இருப்பதைப் போல, நிரல்மொழிகள் பலவற்றுள் பல பொதுபண்புகள் உண்டு. 
+எ.கா. JavaScript, Ruby (அ) Python. 
 
-Each chapter will go into more detail with basics at the beginning and more complicated material at the end. For now, let’s get started with some simple ideas.
+Ruby நிரல்மொழியைக் கொண்டு நீங்கள் நிரலாக்க அடிப்படைகளைக் கற்க இந்நூல் உதவும். இந்நூலில் உள்ள அடிப்படைக் கூறுகளைக் கொண்டு உங்களால் வேறு நிரல்மொழிகளை எளிதில் கற்கலாம். 
 
+நூலில் உள்ள ஒவ்வொரு பிரிவும் அடிப்படையில் தொடங்கிச் சிக்கலான கருத்துகளை வரை படிப்படியாக விளக்க முற்படும். 
 
-__முழு எண், மெய்யெண், சரம்__... போன்ற அடிப்படை வகைகள்
-![Art by Vixuong Hong](http://rubykin.com/images/rootbeer_float.png)
+எளிய கருத்துக்களில் இருந்து துவங்கலாமா ? 
 
-நிரல் எழுதுவதுக்கு முன் நம்ம தரவு மதிப்புகளை பற்றி அறிந்து கொள்ளவது முக்கியம். Data is simply information that you can input (give), output (get), store or manipulate with a computer. The two fundamental types of data used in almost every programming language are _numbers_ and _strings_.
+நிரல்களை இயற்றும் முன்பு, **`தரவு`** என்றால் என்பதை நாம் அறிய வேண்டும். 
 
-Numbers come in two tasty flavors. Integers, which are whole numbers without a decimal point, and floats, numbers that contain a decimal.
+> கணினி, தரும் / பெரும் / மாற்றும் அல்லது சேமிக்கும் பொருளே, **`தரவு`**. 
 
-For example, these are integers:
+**`எண்`**, **`சரம்`** அனைத்து  நிரல்மொழியில் இருக்கும் அடிநிலைத் தரவு வகைகள். 
 
-  ```ruby
-  1, 7, 0, 13, 2000
-  ```
+![Art by Vixuong Hong](http://rubykin.com/images/rootbeer_float.png) 
 
-And these are floats:
+எண்களை, மேலும் இரு வகையாகப் பிரிக்கலாம், அவை 
+- முழுயெண் (புள்ளி இல்லாத  ) 
+- மெய்யெண் 
 
-  ```ruby
-  1.2, 3.14, 5.12345, 0.35
-  ```
+முழுயெண்களுக்கு எடுத்துக்காட்டு:  
 
-Every time you see a whole number like 8 or 19 you will know they are integers, and every time you see a number with a tasty sprinkle, or decimal, they will look like this: 3.4 or 8.1 and you will know they are (root beer) floats.
+```ruby 
+1, 7, 0, 13, 2000 
+``` 
 
-Simple, right? Ok, let's keep going.
+மெய்யெண்களுக்கு எடுத்துக்காட்டு: 
 
-The second type of data, or information given to a computer, are called _strings_. What’s a string? "Anything between quotes is a string." Since that last sentence was inside of quotes, it was technically a string! You probably see strings all the time without even realizing it!
+```ruby 
+1.2, 3.14, 5.12345, 0.35 
+``` 
 
-For example, have you ever seen an alert message on your computer saying something like this:
+மலர்கள், முத்துக்கள் போன்ற சிறிய பொருட்களை நூலில்/ நாரில்/ கம்பியில் 
+கோர்த்துப் பயன்படுத்தப்படும் சிறு மாலைகளுக்கு, **சரம்** என்பது பெயர். 
 
-![example alert message](http://rubykin.com/images/alert_message.png)
+**எ.கா :** *முத்துச்சரம்*, *முல்லைச்சரம்* , *சரவெடி* 
 
-Somewhere inside a program or web application, an engineer wrote the sentence "File does not exist!" and put it in quotes to create a string. When you were alerted with the pop up box, that string was printed to the screen.
+பல எழுத்துக்களைக் கணினியிடம் கொடுக்க **சரம்** என்ற தரவு வகையைப் பயன்படுத்துவோம். 
 
-Strings are a little bit like backpacks or lunch pails, they are great for storing all the stuff we care about in an easy-to-carry container. Except with a string, the straps are the quotes. We use strings to store words, sentences, and even files. Here are some examples of strings:
+> "மேற்குறிகளுக்கு இடையே உள்ள அனைத்தும், ஒரு சரம்". 
 
-```ruby
-"I'm a string!"
-"And_so_am_I"
-"9"
-"This long paragraph is even a string.\nAnd it has these
-strange \n things that we'll explain later."
-```
+சொல்லப்போனால், முந்தைய வாக்கியம் கூட ஒரு **சரம்***தான்*. எடுத்துக்காட்டுக்கு, நீங்க எப்போதாவது  கீழுள்ள *விழிப்புச்செய்தி*யை (alert) உங்கள் கணினியில் பார்த்ததுண்டா ? 
 
-9 is such a joker. Did you notice we put the number nine as a string? This is very different than the actual number nine, but we will get to that later.
+![example alert message](http://rubykin.com/images/alert_message.png) 
 
-Now that you know the two most fundamental pieces of data the computer uses (numbers and strings), it's time to dive a bit deeper into each of these data types.
+நிரலில் ஏதோ ஒர்  இடத்தில் நிரலர் "File does not exist!" என்ற வாக்கியத்தை மேற்குறிகளுக்குள் அடைத்து, சரத்தை உருவாக்கி இருக்கிறார். 
+
+உங்களுக்கு விழிப்பூட்டும் போது திரையில் அந்தச் **சரம்** அச்சடிக்கபட்டது. நாம் சரங்களைச் சொற்கள், வாக்கியங்கள் ஏன் கோப்புகளில் சேமிக்கக்கூடப் பயன்படுத்தலாம். 
+
+**`எ.கா`**: 
+
+```ruby 
+"நான் ஒரு சரம்!" 
+"நானும் சரம்-தாங்க " 
+"9" 
+"நீண்ட பத்தியும் ஒரு சரம் தான். சரத்தில் வேறுபட்ட சில குறிகள் ( \n ) இருக்கும் அவற்றைப் பற்றிப் பிறகு விளக்குகிறோம். " 
+``` 
+
+**"9"** என்பதை எண்ணாகப் பார்க்கதீங்க, மேற்குறிகளுக்குள் அடைப்பட்டதால் அதுவும் சரமே. 
+
+>**9** , **"9"** உள்ள வேறுபாடு என்பதைப் பிறகு பார்க்கலாம். 
+
+இப்பகுதியில் கணினி பயன்படுத்தும் **2** அடிநிலைத் ***தரவுவகை***-களைப் பற்றித் தெரிந்து-கொண்டோம். 
+
+அடுத்தப் பகுதியில், இந்த ***தரவுவகை***-களைப் பற்றி மேலும் படிக்கலாம்.
 <div style="height:30px;"></div>
