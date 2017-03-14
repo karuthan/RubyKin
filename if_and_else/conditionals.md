@@ -6,13 +6,14 @@
 
 என்ற ஒரு தாளில் எழுத்தி நிபந்தனையாக அம்மா அறை கதவில் ஓட்டினாள்.
 
-_If_ and _else_ statements help Ruby understand what you want her to do and when you want her to do it.
+_ஆனால்_ and _இல்லை_ வாக்கியங்கள் ரூபியிடம் உங்களுக்கு என்ன திசையில் நிரல் இயக்கம் தொடரவேண்டும் என்று சொல்லியும், ரூபியின் இயக்கத்தையும் கண்காணிக்கும்.
 
-So far, we’ve learned how Ruby can perform basic math on numbers, store words and sentences as strings, and place these types of information into memory stored in variables. Now that we know how to store information and interact with it, we need a way of telling the computer what to _do_ with that information.
+இதுவரை, ரூபியில் எப்படி எண்களை பயன்படுத்தி கணிதம் செய்வது, சொற்களையும் வாக்கியங்களையும் சரங்களில் சேமிப்பது என்றும், இவ்விரண்டையும் மாறிலியில் கணினியின் நினைவில் சேமிப்பது என்றும் படித்து புரிந்துகொண்டோம். 
+இதன் வழி நாம் கணினியில் தகவல்களை எண்களாகவும், சரம் என்றும் குறியீடு செய்ய கற்றுக்கொண்டோம் - ஆனால் இதனை வைத்து எப்படி கணினியில் இயங்கும் திசையை நிர்ணயிப்பது என்று நமக்கு இயலவில்லை.
 
-One way we do that is with conditionals. This is why your parents say they love you unconditionally, because there is no _if_ or _else_, there is only 100% love, no matter what. Ruby doesn’t love anything unconditionally, Ruby needs to be convinced by conditions.
+இயங்கும் திசையை நிர்ணயிக்க ஒரு வழி நிபந்தனைகளுடன் நிரல்கள் எழுதுவது. நிபந்தனைகளுடன் இயங்கும் நிரல் என்றல் என்ன? இதனை புரிந்து கொள்ள இந்த நிலையை யோசியுங்கள்; உங்கள் பெற்றோர் உங்களை தடையில்லாமல், அளவில்லாமல்  அன்பு செலுத்துகிறார்கள் அல்லவா - அதாவது ஐம்பது சதவிகிதம் இல்லை முழு நூறு சதவிகிதம் கேள்விகள் இல்லாமல் அன்பு செலுத்துகிறார்கள் - இதனுடைய எதிர்மறையானது நிபந்தனை உடன் இருக்கும் அன்பு - "செல்லம் நீ கணக்கு பரிட்சையில் 100/100 வாங்குனால் மட்டும் உனக்கு இந்த ஆண்டு பிறந்தநாள் விழா". இந்த மட்டற்ற அன்பு, கேள்விகள் இல்லாத தூய தாயின் அன்பு கணினியிடம் கிடையாது - ரூபி இயங்குவாரத்திற்கு நிபந்தனைகளுடன் ரூபியை சமாளிக்க வேண்டும்.
 
-A conditional is something that depends on other factors. If this _something_ happens, do _that_, otherwise, do something _else_. For example, if you are hungry, eat a sandwich, else, don’t eat a sandwich!
+சரி, நிபந்தனைகளை எப்படி பயன்படுத்துவது என்று பார்ப்போம். நிபந்தனைகளுக்கு வெளி மாறிலி நிலையை ஒட்டி தீர்வு அமையுங். உதாரணம், இங்கு  _ஏதோ ஒன்று_ நடந்தது/மாறியது, ஆனால்  _ஒரு குறிப்பிட்ட காரியம் செய்யவும்_, இல்லை, மற்றோரு  _காரியம் செய்யவும்_. உதாரணத்திற்கு: உங்களுக்கு பசித்தால், "இட்லியை சாப்பிடுங்க" , இல்லையா, "இட்லியை சாப்பிடாதீங்க"!
 
 ![Art by Vixuong Hong](http://rubykin.com/images/eat-sandwich.png)
 
