@@ -17,17 +17,16 @@ _ஆனால்_ and _இல்லை_ வாக்கியங்கள் ர
 
 ![Art by Vixuong Hong](http://rubykin.com/images/eat-sandwich.png)
 
-Here’s how an If Else conditional might look in Ruby.
-
+ரூபியில் நிபந்தனை வாக்கியம்  கீழ் கண்டது போலவே அமையும்:
 ```ruby
-# set an x variable to the value 5
+# x மாறிலியை 5 என்ற மதிப்பிற்கு சம படுத்தவும்
 x = 5
 
-# start the if / else conditional
+# நிபந்தனையை தொடங்க 'if', 'else', 'end' குறி சொல்லை பயன்படுத்தவும் 
 if x <= 10
   puts x
 else
-  puts "Number is greater than 10"
+  puts "எண் 10-க்கு குறைந்ததாக இருக்க வேண்டும்"
 end
 ```
  
