@@ -30,15 +30,15 @@ else
 end
 ```
  
-In a conditional, the computer checks to see that the code after the _if_ is true. We call this code a block, which just means a small piece of code that has some function. In this case, our block is
+நிபந்தனை கட்டளை என்றால், கணினியில் ரூபி இயக்கி "if" என்ற குறிசொல்லுக்கு அடுத்து  வரும் துணுக்கு மெய் (true) என்கிற மதிப்புடையதா என்று பரிசோதிக்கும். இந்த பகுதி "நிரல் துண்டு" என்று அழைக்கப்படும். மேலே உள்ள எடுத்துக்காட்டில் நமக்கு "நிரல் துண்டு" இங்கே
 `X <= 10`.
 
-So, _if_ our block is _true_ (if X is less than or equal to 10), the computer will perform the action in the next line below the if statement. Since X is equal to 5, it _is_ less than 10, and the value 5 is _put_ on the screen. If X were 11, the conditional (X <= 10) would realize this was a false statement, and the string "Number is greater than 10" would be outputted (shown) on the screen.
+தற்போது நமது நிரல் துண்டு உண்மை (மெய், true) என்று ஆகியிருந்தால் (அதாவது 'x' மாறி 10-இன் கீழ் இருந்தால்), கணினி நிபந்தனை வாக்கியத்தின் மெய் அளவில் உள்ள அடுத்த கட்டளைக்கு சென்றிருக்கும் - அதாவது மாறியின் மதிப்பான 5-ஐ திரையில் "puts" வழி அச்சிடும். ஆனால் மாறி 'x' 11 என மதிப்பு கொண்டிருந்தால் நிபந்தனை "நிரல் துண்டு" பொய் என தீர்மானிக்கப்பட்டு நிபந்தனை வாக்கியத்தின் பொய் பகுதிக்கு சென்று "எண் 10-க்கு குறைந்ததாக இருக்க வேண்டும்" என்ற செய்தியை திரையில் இடும். இதுவே நிபந்தனை வாக்கியத்தின் செயல்பாடு.
 
-When the computer moves through an if-else conditional, it will follow the instructions under the _first_ if statement that evaluates to true. It then ignores all other conditions in the if-else conditional.
+உங்களது ரூபி மொழி நிரலில் பல "நிரல் துண்டு" நிபந்தனைகளை கோர்த்து வரிசையாக நிரல் எழுதலாம் - இதுவும் முதல் "நிரல் துண்டு" உண்மை என தீர்மானிக்க படும் வரை வரிசையில் பரிசோதிக்கப்பட்டு வரும்; கடைசியாக எது முதலில் தீர்மானிக்க படுகிறதோ அத்துடன் இயக்கம் முடியும் - பின்வரும் நிபந்தனை வாக்கியத்தின் அமைப்புகள் இயங்கமாட்டாது.
 
 <br />
-__What is a boolean?__
+__இரும மதிப்பு வகை (Boolean) என்றால் என்ன ?__
 
 We've just learned how a conditional checks to see if something is `true` or `false`. A true or false value is called a _boolean_ in programming. We could write another conditional in a different way using booleans.
 
