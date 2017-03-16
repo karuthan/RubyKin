@@ -12,7 +12,7 @@
 \enumerables\select.md => 0.000000 %
 \files\file.md => 0.000000 %
 \files\the_end.md => 88.607595 %
-\if_and_else\conditionals.md => 0.000000 %
+\if_and_else\conditionals.md => 76.265823 %
 \if_and_else\practice.md => 42.222222 %
 \loops\loop.md => 0.000000 %
 \loops\practice.md => 77.083333 %
@@ -20,7 +20,7 @@
 \methods\practice.md => 45.161290 %
 \numbers\number.md => 15.232722 %
 \numbers\practice.md => 61.261261 %
-\README.md => 38.775510 %
+\README.md => 29.533679 %
 \strings\practice.md => 40.789474 %
 \strings\string.md => 0.000000 %
 \SUMMARY.md => 50.617284 %
@@ -28,4 +28,4 @@
 \variables\variable.md => 11.910670 %
 \what_is_programming\instruction_set.md => 80.777538 %
 \what_is_programming\intro.md => 90.909091 %
-completion => 27.001055%
+completion => 29.235188%
