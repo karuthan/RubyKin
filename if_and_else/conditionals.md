@@ -40,15 +40,15 @@ end
 <br />
 __இரும மதிப்பு வகை (Boolean) என்றால் என்ன ?__
 
-We've just learned how a conditional checks to see if something is `true` or `false`. A true or false value is called a _boolean_ in programming. We could write another conditional in a different way using booleans.
+We've just learned how a conditional checks to see if something is `true` (மெய்) அல்லது `false` (பொய்). இப்படி மெய் அல்லது பொய் என்று இரண்டே மதிப்புகளை கொண்ட மாறி 'இரும மதிப்பு' (Boolean) வகையை சேர்ந்தது என்று சொல்லலாம். இது போன்ற இரும மதிப்புகளை கொண்டு நாம் நிபந்தகனைகளை கீழே உள்ளபடி எழுதலாம்:
 
 ```ruby
 if false
-  puts "false"
+  puts "பொய் " #பதிவிடாது 
 elsif true
-  puts "true"
+  puts "மெய் " #பதிவிடும்
 else
-  puts "This won’t print"
+  puts "பதிவிடாது " #பதிவிடாது !
 end
 ```
 
@@ -58,18 +58,18 @@ In the example above, the conditional checks to see if _false_ is true. Since th
 
 The final `else` will never print, because true will always evaluate to true and so the program exits before getting to the _else_ line. Remember, Ruby is only looking for the _first true_ if statement, ignoring everything else.
 
-Here are the basic elements used to evaluate conditionals:
+ரூபி நிபந்தனைகளை மதிப்பிட பயன்படுத்தும் தொடர்புறு செயற்குறிகள் (relational operators):
 
 ```ruby
-<   # less than
->   # greater than
-<=  # less than or equal to
->=  # greater than or equal to
-==  # equal to
-!=  # not equal to
+<   # குறைவு 
+>   # கூடுதல் 
+<=  # சமம் அல்லது குறைவு
+>=  # கூடுதல் அல்லது சமம்
+==  # சமம்
+!=  # சமம் இல்லை
 ```
 
-When checking if an object is _less than_ or _greater than_, we use the same symbols found in math. When checking if some object is equal to another object, we use two equal signs. In Ruby, like many programming languages, one equal sign is used to assign or _give_ a value to a variable. If we want to check that an object is _not equal_ we use an exclamation mark before the equal sign. In Ruby, we could also simply use the word `not`.
+மேல் கண்ட ரூபி செயலுருபுகள் கணித குறியீடுகளாகவே இருக்கும். இரு உறுபடிகள் சமமா என்று கணக்கிட "==" இந்த குறியீடை பயன்படுத்துவோம் - இது நீங்கள் வகுப்பில் படிக்கும் கணிதத்தை போல இல்லாமல் சற்று மாறுபட்டு அமைந்தது. ரூபியில் "=" சமம் என்று குறியீடு ஒரு மதிப்பை ஒரு குறிப்பிட்ட மாறிக்கு அளிக்கும் வகை அமைந்தது. இரு உறுபடிகளும் சமம் இல்லாமல் இருப்பதை கண்டறிய "!=" என்ற குறியீடை பயன்படுத்தலாம். ரூபியில்  "இல்லை" என்ற சொல் `not` என்பதையும் "தர்க எதிர்மறை" (logical not) என்பதற்கு பயன்படுத்தலாம்.
 
 <br />
 __நிரலக்த்தில் "பொருள்" என்றால் என்ன ?__
