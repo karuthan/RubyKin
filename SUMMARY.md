@@ -15,7 +15,7 @@
 * [தரவமைப்பு வகைகள்](collections/storage.md)
    1. [அணிகள்](collections/array.md)
    
-   2. [எண்குறி](collections/hash.md)
+   2. [எண்அடைவு](collections/hash.md)
    
    3. [பயிற்சி](collections/practice.md)
 * [சார்பு நிரல்பாகம்](methods/functions.md)
