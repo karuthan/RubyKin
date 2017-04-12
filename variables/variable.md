@@ -19,14 +19,14 @@ myCat = "மீசை வைத்த பூனைக்குட்டி"
 __நினைவில் எப்படி மாறிலி சேமிக்கப்படுகின்றன ?__
 
 
-With computers, variable storage is slightly different than common math, due to the way memory storage is created. Don't worry if this section seems complicated, you will start to get the hang of it as you write more code.
+கணினியில் மதிப்புகளை சேமிப்பது மின்வழி நினைவகத்தின் அமைப்பினால் சற்று தினசரி கணிதத்தை விட மாறுபட்டது. கீழ் வரும் - நாளடைவில் அது நீங்கள் நிரல்படுத்தும் அனுபவம் வருகையில் சுலபமாகும்.
 
-In an effort to _not_ waste memory, the computer avoids storing duplicate information. In the following example, each variable `(X, Y and Z)` will point to the same place in memory because they store the same value: twelve.
+கணினி மின்-நினைவகத்தை சிக்கனமாக உபயோகிக்க ஒரே தகவலை இரட்டிக்காமல் அதை நினைவு கொள்ளும். கீழ் உள்ள உதாரணங்களில்  `(அ, ஆ மற்றும் இ)` ஒரே மின்நினைவக இடத்தில், ஒரே மதிப்பை கொண்டு இருக்கும் : 12.
 
 ```
-x = 12
-y = x
-z = 12
+அ  = 12
+ஆ  = அ
+இ  = 12
 ```
 
 In order to store the value 12, the computer creates a location in memory with an address, let's assume the address is ABC12. In this sense, a variable is like an X on a treasure map, guiding you to the right location.
