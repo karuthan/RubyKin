@@ -19,13 +19,13 @@ __Chapter 2 - Numbers__
 5) `4 ** 2`
   `=> 16`
 
-6) What is the result of `11 % 5` ?
+6) இந்த கணக்கின் `11 % 5` விடை என்ன?
   `=> 1`
 
 5 goes into 11 only twice, for a total of 10.
 11 minus 10 leaves a remainder of 1
 
-7) What is `14 % 3` ?
+7) `14 % 3` விடை என்ன ?
   `=> 2`
 
 
