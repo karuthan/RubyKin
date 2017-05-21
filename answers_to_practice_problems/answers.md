@@ -1,7 +1,7 @@
 #Answers to Practice Problems
 
 <br />
-__Chapter 2 - Numbers__
+__பாடம் 2 - எண்கள்__
 
 
 1) `2 + 3 + 5`
@@ -40,12 +40,12 @@ if `x % 2 == 0` is `true`, it’s an even number.
 if `x % 2 == 0` is `false`, it’s an odd number.
 
 <br />
-__Chapter 3 - Strings__
+__Chapter 3 - சரங்கள்__
 
 
-1) puts "What is the result" + " of " + "this operation?"
-What is the return result of this operation?
-  `=> nil`
+1) puts "இதன் விடை" + " என்னவாக " + "வெளிப்படும் ?"
+இதன் விடை என்னவாக வெளிப்படும்?
+`=> nil`
 
 The above puts method concatenated the strings, putting
 the result to the screen and returning nil.
