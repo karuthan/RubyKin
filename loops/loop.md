@@ -1,7 +1,9 @@
 # மடக்கு வாக்கியம் (Loops)
 
 
-அடிப்படையில் கணினியை பலமுறை ஒரு குறிப்பிட்ட சில கட்டளைகளை செய்ய முனைவது மடக்கு வாக்கியம். கணினி மனிதர்களை போல் இன்பம், வலி, பசி போன்ற உணர்வுகளுக்கு ஆளாகாததால் இந்த இயந்திரம் சளைக்காமல் வேலைகளை (கணக்குகளை) செய்யும் - அதற்க்கு "போர்" அலுப்படையாமல் வேலைகளை செய்யும் திறன் உள்ளது. ஒரு மடக்கு வாக்கியம் (loop "லூப்" என்று ஆங்கிலத்தில் சொல்வார்கள்) என்பது ஒரே செயலை பலமுறை திரும்ப திரும்ப செய்யும் பொருள் கொண்டது; கணினி ஒரு மின் இயந்திரம் என்பதால் கடகட என்று நொடிக்கு பல மில்லியன் "flops" (floating-point operations per second) என்ற வேகத்தில் நீங்கள் இட்ட மடக்கு வாக்கியம் சூழ்ந்த கட்டளைகளை கண்சிமிட்டும் நேரத்தில் முடிக்கும். கீழ் வரும் நிரல் துண்டை படித்து அதில் உள்ள "while" மடக்கு வாக்கியத்தை ஆராய்ந்து பார்க்கலாம் வாருங்கள்.
+அடிப்படையில் கணினியை பலமுறை ஒரு குறிப்பிட்ட சில கட்டளைகளை செய்ய முனைவது மடக்கு வாக்கியம். கணினி மனிதர்களை போல் இன்பம், வலி, பசி போன்ற உணர்வுகளுக்கு ஆளாகாததால் இந்த இயந்திரம் சளைக்காமல் வேலைகளை (கணக்குகளை) செய்யும் - அதற்க்கு "போர் (boredom)" அலுப்படையாமல் வேலைகளை செய்யும் திறன் கொண்டது. 
+
+ஒரு மடக்கு வாக்கியம் (loop "லூப்" என்று ஆங்கிலத்தில் சொல்வார்கள்) என்பது ஒரே செயலை (அல்லது சில குறிப்பிட்ட செயல்களை) பலமுறை திரும்ப திரும்ப செய்யும் பொருள் கொண்டது; கணினி ஒரு மின் இயந்திரம் என்பதால் கடகட என்று நொடிக்கு பல மில்லியன் "flops" (floating-point operations per second) என்ற வேகத்தில் நீங்கள் இட்ட மடக்கு வாக்கியம் சூழ்ந்த கட்டளைகளை கண்சிமிட்டும் நேரத்தில் இயக்கி முடிக்கும். கீழ் வரும் நிரல் துண்டை படித்து அதில் உள்ள "while" மடக்கு வாக்கியத்தை ஆராய்ந்து பார்க்கலாம் வாருங்கள்.
 
 ```ruby
 x = 0
@@ -9,11 +11,13 @@ while x < 5
   puts x
   x = x + 1
 end
-puts "Finished the while loop."
+puts "மடக்கு கட்டளை முடிந்தது"
 ```
 
-This is called a `while` loop. The statement after the word _while_ must be true for the loop to continue running. In this example, we set x to the value zero. Our _while_ loop checks to see if our statement is true: `x variable is less than 5` and it is! So, the computer executes the code (follows our block of instructions) between _while_ and _end_ until X is no longer less than 5.
-
+ மடக்கு வாக்கியத்த ரூபி மொழியில் இந்த எடுத்துக்காட்டு விளக்கியது.  _while_ என்ற குறிச்சொல் அடுத்து வரும் மாறி 'true' (உண்மை) என்றவரை மட்டுமே இந்த மடக்கு வாக்கியம் தொடர்ந்து இயங்கும் -  இங்கு அது 
+ x என்ற மாறியின் மதிப்பு 5 ஆகும் வரை இயங்கும். அதன் பின் மடக்கு கட்டளைகளில் இருந்து வெளியேறி 
+ "மடக்கு கட்டளை முடிந்தது" என்ற செய்தியை அச்சிட்டு முடியும்.
+ 
 This loop tells the computer to perform a task _WHILE_ certain things are happening. Your parents would tell you to look both ways, _while_ you cross the street. In a way, you are being programmed to perform the task of looking both ways before crossing the street. If there are no cars, it's safe to cross.
 
 The word `puts` is a method that simply "puts" the following content to the screen. Technically, it means `put string` and takes a string argument to put on the screen.
