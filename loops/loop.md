@@ -33,7 +33,7 @@ Here is some pseudo code to see what's happening in our _while_ code.
 5) Is 3 less than 5? True. puts x. x = 3 + 1. x is 4.
 6) Is 4 less than 5? True. puts x. x = 4 + 1. x is 5.
 7) Is 5 less than 5? False. Loop ends.
-8) "Finished the while loop." is printed to the screen.
+8) "while மடக்கு வாக்கியம் முடிந்தது." is printed to the screen.
 ```
 
 In this example, the x variable is set to zero outside the while loop. When the while loop begins, the computer checks to see if x is less than 5. Since 0 is less than 5, this is a true statement and the computer moves on to puts x, which displays the value of x to the screen. The next operation is to assign x the value of x + 1 (in this case 0 + 1). When it gets to the end, the loop repeats to see if x is still less than 5. Since 1 is less than 5, we put 1 to the screen and assign x the value of 1 + 1, and the process continues. Once x is equal to 5, the loop stops because the statement (5 < 5) is no longer true, it's false. After exiting the loop the computer executes the final puts statement.
@@ -46,7 +46,7 @@ The end result looks something like this:
 2
 3
 4
-Finished the while loop.
+while மடக்கு வாக்கியம் முடிந்தது.
 ```
 
 ![Art by Vixuong Hong](http://rubykin.com/images/roller-coaster.png)
@@ -55,13 +55,13 @@ Finished the while loop.
 _While_ loops are great for counting, but they can be used in other ways as well. For example, what if we played a game that wouldn’t let the player move forward unless they got the right answer?
 
 ```ruby
-answer = ""  # creating an empty String variable
+answer = ""  #காலி சரம் ஒன்றை உருவாக்குங்கள் 
 while answer != "Ruby"
-  puts "Sorry, wrong answer." unless answer == ""
-  puts "What is the best programming language?"
+  puts "மன்னிக்கவும் தவரான விடை." unless answer == ""
+  puts "மிக சிறந்த கணினி மொழி எது?"
   answer = gets.chomp
 end
-puts "That's right!"
+puts "அடி சக்கை!"
 ```
 
 We are using a few new Ruby vocab words, or methods: `gets` and `chomp`. Don't worry, we will get to methods later, but here's what's happening.
@@ -77,7 +77,7 @@ We can look at another example using a _for loop_.
 
 ```ruby
 for number in 1..5 do
-  puts "The current value is #{number}"
+  puts "தற்போதைய மதிப்பு #{number}"
 end
 ```
 
@@ -86,11 +86,11 @@ The for loop starts without a true condition being met. This loop will execute t
 The funny number sign and curly brackets is a string interpolation. We will cover this later, but all you need to know right now is that it places the value of our _number_ variable inside the string. The output would look like this:
 
 ```
-The current value is 1
-The current value is 2
-The current value is 3
-The current value is 4
-The current value is 5
+தற்போதைய மதிப்பு 1
+தற்போதைய மதிப்பு 2
+தற்போதைய மதிப்பு 3
+தற்போதைய மதிப்பு 4
+தற்போதைய மதிப்பு 5
 ```
 
 Hopefully you are beginning to see the power of loops in Ruby. There are a few other loops, but _while_ and _for_ are the standard ones to start with. When we combine loops with collections, our programs become even more valuable!
