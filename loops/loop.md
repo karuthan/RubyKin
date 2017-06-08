@@ -1,7 +1,6 @@
 # மடக்கு வாக்கியம் (Loops)
 
-
-அடிப்படையில் கணினியை பலமுறை ஒரு குறிப்பிட்ட சில கட்டளைகளை செய்ய முனைவது மடக்கு வாக்கியம். கணினி மனிதர்களை போல் இன்பம், வலி, பசி போன்ற உணர்வுகளுக்கு ஆளாகாததால் இந்த இயந்திரம் சளைக்காமல் வேலைகளை (கணக்குகளை) செய்யும் - அதற்க்கு "போர் (boredom)" அலுப்படையாமல் வேலைகளை செய்யும் திறன் கொண்டது. 
+அடிப்படையில் கணினியை பலமுறை ஒரு குறிப்பிட்ட சில கட்டளைகளை செய்ய முனைவது மடக்கு வாக்கியம். கணினி மனிதர்களை போல் இன்பம், வலி, பசி போன்ற உணர்வுகளுக்கு ஆளாகாததால் இந்த இயந்திரம் சளைக்காமல் வேலைகளை (கணக்குகளை) செய்யும் - அதற்க்கு "போர் (boredom)" அலுப்படையாமல் வேலைகளை செய்யும் திறன் கொண்டது.
 
 ஒரு மடக்கு வாக்கியம் (loop "லூப்" என்று ஆங்கிலத்தில் சொல்வார்கள்) என்பது ஒரே செயலை (அல்லது சில குறிப்பிட்ட செயல்களை) பலமுறை திரும்ப திரும்ப செய்யும் பொருள் கொண்டது; கணினி ஒரு மின் இயந்திரம் என்பதால் கடகட என்று நொடிக்கு பல மில்லியன் "flops" (floating-point operations per second) என்ற வேகத்தில் நீங்கள் இட்ட மடக்கு வாக்கியம் சூழ்ந்த கட்டளைகளை கண்சிமிட்டும் நேரத்தில் இயக்கி முடிக்கும். கீழ் வரும் நிரல் துண்டை படித்து அதில் உள்ள "while" மடக்கு வாக்கியத்தை ஆராய்ந்து பார்க்கலாம் வாருங்கள்.
 
@@ -88,12 +87,10 @@ end
 
  இங்கு சிறப்பாக நீங்க கவனிக்க வேண்டியது, மாறி 'number' என்பது -
  இது மதிப்பு வாக்கியம் இயங்கும் பொழுது இதன் மதிப்பு 1, 2, 3, 4, 5 என மறி இக்கொண்டே
- போகும்.
+ போகும். இப்போது  _for_ மடக்கு வாக்கியத்தை இரண்டில் இருந்து எட்டு வரை, அதாவது ஏழு முறை [2,3,4,5,6,7,8] என இயக்க _2..8_ என்று ரூபி மொழியில் கொடுக்கலாம். இப்போது இதையே ஒன்றில் இருந்து இருபத்தைந்து வரை எப்படி எழுதுவீர்கள் 
+ ? முயன்று பாருங்களேன்.
  
- For example, a range of 2 through 8 would be written 2..8. A range of 1 through 25 would be written 1..25. Easy, right?
-
-The funny number sign and curly brackets is a string interpolation. We will cover this later, but all you need to know right now is that it places the value of our _number_ variable inside the string. The output would look like this:
-
+ _puts_ என்பது எப்படி ஓவொரு முறையும் தனது மதிப்பை மாற்றி கொள்கிறது ? இதற்க்கு காரணம் _number_ என்பது இடமாற்றம் அடைகிறது (substitution) - ஓவொரு முறை மடக்கு வாக்கியம் இயங்கும் சமயம் _number_ இதன் மதிப்பு மாறுகிறது, பின்பு இதன் இடம் மாற்றத்தால் _puts_ இன் மதிப்பும் மாறி திரையில் அச்சாகிறது.
 ```
 தற்போதைய மதிப்பு 1
 தற்போதைய மதிப்பு 2
@@ -102,8 +99,10 @@ The funny number sign and curly brackets is a string interpolation. We will cove
 தற்போதைய மதிப்பு 5
 ```
 
-Hopefully you are beginning to see the power of loops in Ruby. There are a few other loops, but _while_ and _for_ are the standard ones to start with. When we combine loops with collections, our programs become even more valuable!
+உங்களுக்கு ரூபியின் மடக்கு வாக்கியங்களின் பலம் புலப்படும் என்று நினைக்கிறோம். இங்கு கொடுக்கப்பட்ட ரூபி மடக்கு வாக்கியம் _while_ மற்றும் _for_ தவிர மற்றவையும் உள்ளன அனால் இதை கொண்டு மட்டுமே நாம் தொடக்கத்தில் இயங்கலாம். மடக்கு வாக்கியங்களை தரவமைப்புகளுடன் (datastructures) இணைந்து நிரல்படுத்தினால் இவற்றின் அசுர பலம் காணலாம்!
 
-Imagine a comic book collection, or a marble collection, or a toy collection. They are full of individual comics or marbles or toys. Imagine how much easier it would be to count, sort and organize our collections if we had the super fast computers helping us while we do other things! Next, we’ll show you how to get Ruby's help in handling collections. For now we'll finish the chapter with some examples.
+உங்களுக்கு ஒரு பொம்மை அலமாரி, அல்லது ஒரு சொப்பு சாமான் திரட்டு பரப்பி இருந்தால் இவற்றை எண்ணுவது, சரிபார்ப்பது, வரிசைப்படுத்துவது என்பதை எல்லாமே ரூபியிடம் ஒரு 
+அதிவேக கணினியிடம் கொடுத்துவிடலாம். நீங்கள் இதை செய்யாமல் ஒரு செவ்வியல் புத்தகத்தையோ அல்லது தமிழிசை, கர்நாடக 
+இசையை இரசிக்க நேரம் கழிக்கலாம், இல்லாட்டி ஒரு தலைவர் படத்தை கூட மறுபடி பார்க்கலாம். ரூபியின் மடக்கு வாக்கியங்கள் பலம் உங்களுக்கு எப்போதும் உண்டு!
 
 <div style="height:30px;"></div>
