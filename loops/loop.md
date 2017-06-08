@@ -76,7 +76,7 @@ Chomp is also a method. Its special task is to remove the last _new line_ charac
 Gets and chomp are merely methods we use to cleanly assign the user’s input to the answer variable (without that strange new line character). Once the user enters the right answer, the computer exits the loop and ‘That’s right!’ is printed to the screen.
 
 
-We can look at another example using a _for loop_.
+இந்த எடுத்துக்காட்டில்  _for loop_ என்று சொல்லக்கூடிய ஒவ்வொன்றாக _for_ குறிச்சொல்லை கொண்ட மடக்கு வாக்கியத்தை பார்க்கலாம்.
 
 ```ruby
 for number in 1..5 do
@@ -84,7 +84,13 @@ for number in 1..5 do
 end
 ```
 
-The for loop starts without a true condition being met. This loop will execute the code block between _do_ and _end_ once for every number in the range 1 through 5 (that's the 1..5 part). The word `number` is just a temporary variable that represents each item within our _for loop_ range. For example, a range of 2 through 8 would be written 2..8. A range of 1 through 25 would be written 1..25. Easy, right?
+இந்த _for_ மடக்கு வாக்கியம் _while_ என்ற மடக்கு வாக்கியம் போல இல்லாமல் நிபந்தனை உண்மையாகாமல் இருந்தாலும் தொடங்கும். மேல் உள்ள நிரல் துண்டு 1-இல் இருந்து 5-வரை (மொத்தம் 5 முறை) இந்த puts நிரல் கட்டளையை இயக்கம். 
+
+ இங்கு சிறப்பாக நீங்க கவனிக்க வேண்டியது, மாறி 'number' என்பது -
+ இது மதிப்பு வாக்கியம் இயங்கும் பொழுது இதன் மதிப்பு 1, 2, 3, 4, 5 என மறி இக்கொண்டே
+ போகும்.
+ 
+ For example, a range of 2 through 8 would be written 2..8. A range of 1 through 25 would be written 1..25. Easy, right?
 
 The funny number sign and curly brackets is a string interpolation. We will cover this later, but all you need to know right now is that it places the value of our _number_ variable inside the string. The output would look like this:
 
