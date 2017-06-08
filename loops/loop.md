@@ -17,13 +17,16 @@ puts "மடக்கு கட்டளை முடிந்தது"
  மடக்கு வாக்கியத்த ரூபி மொழியில் இந்த எடுத்துக்காட்டு விளக்கியது.  _while_ என்ற குறிச்சொல் அடுத்து வரும் மாறி 'true' (உண்மை) என்றவரை மட்டுமே இந்த மடக்கு வாக்கியம் தொடர்ந்து இயங்கும் -  இங்கு அது 
  x என்ற மாறியின் மதிப்பு 5 ஆகும் வரை இயங்கும். அதன் பின் மடக்கு கட்டளைகளில் இருந்து வெளியேறி 
  "மடக்கு கட்டளை முடிந்தது" என்ற செய்தியை அச்சிட்டு முடியும்.
- 
-This loop tells the computer to perform a task _WHILE_ certain things are happening. Your parents would tell you to look both ways, _while_ you cross the street. In a way, you are being programmed to perform the task of looking both ways before crossing the street. If there are no cars, it's safe to cross.
 
-The word `puts` is a method that simply "puts" the following content to the screen. Technically, it means `put string` and takes a string argument to put on the screen.
+மேல் கொடுக்கப்பட்ட மடக்கு வாக்கியம் ஒரு நிபந்தனை  
+(x < 5)
+உண்மையாக இருக்கும் வரை அதனுள் உள்ள எல்லா கட்டளைகளையும் இயக்கும்.உங்கள் பெற்றோர் நீங்க சாலையை தாண்டும் வரை இரண்டு பக்கமும் கவனம் செலுத்த சொல்வாங்க இல்லையா ? அதே போல தான் இந்த வரை எனும் _while_ கட்டளை செயல்படும். அதாவது உங்கள் பெற்றோர்கள் உங்களையே நிரல்படுத்துகிறது 
+போல என்றும் சொல்லலாம் - அதாவது சாலையில் இரண்டு பக்கமும் கார்கள் இல்லாத வரை மட்டுமே நீங்கள் சாலையை கடக்கலாம்.
 
-Here is some pseudo code to see what's happening in our _while_ code.
+ரூபி கட்டளை  `puts` திரையில் அதனை சார்ந்த மதிப்பை அச்சிடும்; கொஞ்சம் நுட்பமாக சொல்லவேண்டுமானால் திரையில் அச்சிட 
+`puts` என்ற கட்டளைக்கு ஒத்து வரும் மதிப்பை எடுத்துக்கொள்ளும் - அடுத்து இந்த மதிப்பு திரையில் அச்சாகும்!
 
+கீழ் கண்ட மாதிரி கட்டளைகள் (pseudocode) என்பது _while_ மடக்கு வாக்கியம் எப்படி செயலாற்றும் என்று விளக்கும் வண்ணம் கொடுக்கப்பட்டது
 ```
 # pseudo code
 1) x is 0
