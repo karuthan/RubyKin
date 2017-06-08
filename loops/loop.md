@@ -40,7 +40,7 @@ puts "மடக்கு கட்டளை முடிந்தது"
 
 In this example, the x variable is set to zero outside the while loop. When the while loop begins, the computer checks to see if x is less than 5. Since 0 is less than 5, this is a true statement and the computer moves on to puts x, which displays the value of x to the screen. The next operation is to assign x the value of x + 1 (in this case 0 + 1). When it gets to the end, the loop repeats to see if x is still less than 5. Since 1 is less than 5, we put 1 to the screen and assign x the value of 1 + 1, and the process continues. Once x is equal to 5, the loop stops because the statement (5 < 5) is no longer true, it's false. After exiting the loop the computer executes the final puts statement.
 
-The end result looks something like this:
+இதன் இயக்கம் வெளிப்பாடு இதுபோல் அமையும்:
 
 ```
 0
@@ -103,6 +103,6 @@ end
 
 உங்களுக்கு ஒரு பொம்மை அலமாரி, அல்லது ஒரு சொப்பு சாமான் திரட்டு பரப்பி இருந்தால் இவற்றை எண்ணுவது, சரிபார்ப்பது, வரிசைப்படுத்துவது என்பதை எல்லாமே ரூபியிடம் ஒரு 
 அதிவேக கணினியிடம் கொடுத்துவிடலாம். நீங்கள் இதை செய்யாமல் ஒரு செவ்வியல் புத்தகத்தையோ அல்லது தமிழிசை, கர்நாடக 
-இசையை இரசிக்க நேரம் கழிக்கலாம், இல்லாட்டி ஒரு தலைவர் படத்தை கூட மறுபடி பார்க்கலாம். ரூபியின் மடக்கு வாக்கியங்கள் பலம் உங்களுக்கு எப்போதும் உண்டு!
+இசையை இரசிக்க நேரம் கழிக்கலாம், இல்லாட்டி ஒரு தலைவர் படத்தை கூட மறுபடி பார்க்கலாம். ரூபியின் மடக்கு வாக்கியங்கள் பலம் உங்களுக்கு எப்போதும் உண்டு! இந்த தொகுதியை முடிப்பதற்கு  
 
 <div style="height:30px;"></div>
