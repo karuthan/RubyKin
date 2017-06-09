@@ -39,8 +39,8 @@ puts "மடக்கு கட்டளை முடிந்தது"
 ```
 
 இந்த உதாரணத்தில் மாறி, x பூஜ்ஜியம் என்று தொடக்கத்தில் அதாவது,  மடக்கு வாக்கியத்தின் முன்பு, மதிப்பு பெறுகிறது. மடக்கு வாக்கியம் தொடங்கும் போது, கணினி இந்த மாறியின் மதிப்பு ஐந்திற்கு கம்மியாக இருக்கிறதா என்று பார்க்கும். பூஜ்ஜியம் என்பது ஐந்திற்கு கம்மியானது அதனால் திரையில் _puts_ இன் ஒத்த சரம் வெளியிடப்படும். மடக்கு வாக்கியத்தில் அடுத்த கட்டளை x என்பதன்
-மதிப்பை ஒன்றால் கூட்டக்கூடியது.
-When it gets to the end, the loop repeats to see if x is still less than 5. Since 1 is less than 5, we put 1 to the screen and assign x the value of 1 + 1, and the process continues. Once x is equal to 5, the loop stops because the statement (5 < 5) is no longer true, it's false. After exiting the loop the computer executes the final puts statement.
+மதிப்பை ஒன்றால் கூட்டக்கூடியது. இதுபோலவே _x_ என்பதன் மதிப்பு 5 ஐ எட்டும் வரை தொடர்ந்து இயங்கும் - ஐந்தை எட்டியபின் மடக்கு 
+வாக்கியம் முடிவடைந்து அடுத்த கட்டளைக்கு இயக்கம் செல்லும் - இங்கு இந்த கட்டளை _puts 
 
 இதன் இயக்கம் வெளிப்பாடு இதுபோல் அமையும்:
 
@@ -56,7 +56,9 @@ while மடக்கு வாக்கியம் முடிந்தது
 ![Art by Vixuong Hong](http://rubykin.com/images/roller-coaster.png)
 
 <br />
-_While_ loops are great for counting, but they can be used in other ways as well. For example, what if we played a game that wouldn’t let the player move forward unless they got the right answer?
+_While_ மடக்கு வாக்கியங்களை வைத்து கொண்டு வெறும் எண்ணுவது மட்டுமே இதுவரை செய்துள்ளோம். அடுத்து இதே _while_ 
+வாக்கியத்தை கொண்டு வேறென்ன ஒரு முடிவிலா இயக்கத்தை வடிவமைக்கலாம் என்று பாருங்கள். இந்த 
+எடுத்துகாட்டில் சரியான சாரம் உள்ளீடு செய்யும் வரை இந்த _while_ மடக்கு வாக்கியம் இயங்கி கொண்டே இருக்கும். 
 
 ```ruby
 answer = ""  #காலி சரம் ஒன்றை உருவாக்குங்கள் 
