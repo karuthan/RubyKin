@@ -38,7 +38,9 @@ puts "மடக்கு கட்டளை முடிந்தது"
 8) "while மடக்கு வாக்கியம் முடிந்தது." is printed to the screen.
 ```
 
-In this example, the x variable is set to zero outside the while loop. When the while loop begins, the computer checks to see if x is less than 5. Since 0 is less than 5, this is a true statement and the computer moves on to puts x, which displays the value of x to the screen. The next operation is to assign x the value of x + 1 (in this case 0 + 1). When it gets to the end, the loop repeats to see if x is still less than 5. Since 1 is less than 5, we put 1 to the screen and assign x the value of 1 + 1, and the process continues. Once x is equal to 5, the loop stops because the statement (5 < 5) is no longer true, it's false. After exiting the loop the computer executes the final puts statement.
+இந்த உதாரணத்தில் மாறி, x பூஜ்ஜியம் என்று தொடக்கத்தில் அதாவது,  மடக்கு வாக்கியத்தின் முன்பு, மதிப்பு பெறுகிறது. மடக்கு வாக்கியம் தொடங்கும் போது, கணினி இந்த மாறியின் மதிப்பு ஐந்திற்கு கம்மியாக இருக்கிறதா என்று பார்க்கும். பூஜ்ஜியம் என்பது ஐந்திற்கு கம்மியானது அதனால் திரையில் _puts_ இன் ஒத்த சரம் வெளியிடப்படும். மடக்கு வாக்கியத்தில் அடுத்த கட்டளை x என்பதன்
+மதிப்பை ஒன்றால் கூட்டக்கூடியது.
+When it gets to the end, the loop repeats to see if x is still less than 5. Since 1 is less than 5, we put 1 to the screen and assign x the value of 1 + 1, and the process continues. Once x is equal to 5, the loop stops because the statement (5 < 5) is no longer true, it's false. After exiting the loop the computer executes the final puts statement.
 
 இதன் இயக்கம் வெளிப்பாடு இதுபோல் அமையும்:
 
