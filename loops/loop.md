@@ -67,17 +67,18 @@ while answer != "Ruby"
 end
 puts "அடி சக்கை!"
 ```
+இங்கு சில புதிய ரூபி சார்புகளை பயன்படுத்தினோம்; இவை : `gets` மற்றும் `chomp`. இவை இந்த புத்தகம் வாசிக்கும் அளவில் உங்களுக்கு விளக்க படும்.
 
-We are using a few new Ruby vocab words, or methods: `gets` and `chomp`. Don't worry, we will get to methods later, but here's what's happening.
+**நிரல் விளக்கம்** 
+மேல் உள்ள நிரல் துண்டு "மிக சிறந்த கணினி மொழி எது ?" என்ற கேள்விக்கு "Ruby" என்று ஆங்கிலத்தில் கொடுக்கும் வரை இயங்கிக்கொண்டே இருக்கும். உங்கள் உள்ளீடை _gets.chomp_ என்ற சார்பு பெற்று கொண்டு _answer_ என்ற மாறியில் சேமிக்கும்; இதனையே _while_ மடக்கு வாக்கியம் முடியும் வரை இயக்கிக்கொள்ளும்.
 
-In the example above, the computer will continue to prompt the user for "the best programming language" until the answer equals "Ruby". We assign the users answer to the variable `answer` using the built-in Ruby method `gets`. Gets is like a little helper monkey that helps the computer "get" a piece of information that is entered into the terminal.
+_chomp_ என்ற சார்பு கிடைத்த சாரத்தில் கடைசியில் உள்ள வரி முடிவு  எழுத்தான '\n' என்பதை 
+அழித்து பயன்படுத்தும் வண்ணம் உங்களுக்கு அந்த சரத்தை பின் கொடுக்கும்.
 
-Chomp is also a method. Its special task is to remove the last _new line_ character. When you hit _enter_ the `\n` new line character get stored, but chomp will remove it.
+உங்கள் நிரலை சரிவர  பயன்படுத்தும் பயனர் ,"Ruby" என்று கொடுத்ததும் இந்த மடக்கு வாக்கியத்தில் இருந்து வெளியேரும்
+அதன் பின் "அடி சக்கை" என்று கொஞ்சம் எகத்தாளமாகவே நிரல்போல் திரையில் வெளியிட்டு முடிக்கும். 
 
-Gets and chomp are merely methods we use to cleanly assign the user’s input to the answer variable (without that strange new line character). Once the user enters the right answer, the computer exits the loop and ‘That’s right!’ is printed to the screen.
-
-
-இந்த எடுத்துக்காட்டில்  _for loop_ என்று சொல்லக்கூடிய ஒவ்வொன்றாக _for_ குறிச்சொல்லை கொண்ட மடக்கு வாக்கியத்தை பார்க்கலாம்.
+அடுத்து இந்த எடுத்துக்காட்டில்  _for loop_ என்று சொல்லக்கூடிய ஒவ்வொன்றாக _for_ குறிச்சொல்லை கொண்ட மடக்கு வாக்கியத்தை பார்க்கலாம்.
 
 ```ruby
 for number in 1..5 do
