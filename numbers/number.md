@@ -20,7 +20,7 @@
   
   நீங்களே இந்த கட்டளைகளை ரூபி இயக்கியில் செயல்படுத்தலாம் - அனால் அதற்க்கு ரூபி உங்கள் கணினியில் நிறுவ பட வேண்டும்.
 
-__Installing Ruby__
+__ரூபி இயக்கியை எப்படி நிறுவுவது__
 
 If you’re using Mac OS X, Ruby is already installed. Hooray! Just open your _Terminal_ application. To find terminal you can click the magnifying glass in the top right corner of your screen, then type Terminal and click the first result. (Or you can navigate to Applications - Utilities - Terminal and double click).
 
