@@ -10,8 +10,19 @@
 இப்படி எழுதலாம் 
 ```ruby
  [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
-```
-Arrays are noted using square brackets, with elements separated by a comma. So an array is in order, and it is also indexed. When a collection is indexed, it means that each item has a specific number that relates to its order in line. The tricky part to remember is that computers start their index at zero. This means that Adam’s index is 0, Billy is 1, Molly is 2 and Sally is 3.
+``
+அணிகள் என்பதை குறியீடே '[' தொடக்கம்  மற்றும்  ']' முடிவ சதுர அடைப்பு குறிகளை பயன்படுத்தலாம்.  
+இந்த இரு சதுர அடைப்பு குறிகளுக்குள் நமது சிறுவர்களின் பெயர்களை சரங்களாக எழுதுங்கள். 
+
+சரம் என்பது உள்ளீடு வரிசை படுத்தப்பட்ட படி கணினி நினைவகத்தில் இருக்கும்.
+கணினியில் அணிகளை பிரித்து எடுக்க இவற்றின் இடம் சூட்டும் எண் வரிசை தேவைப்படும் - 
+ தினசரி வாழ்வில் ஒன்றில் இருந்து எண்ணுவது போல் இல்லாமல் கணினி இடம் சூட்டும் 
+ வகை பூஜ்யத்தில் இருந்து தொடங்கும்.
+ அதாவது நமது மாணவர்களின் பெயர்களை இடம் 0-இல் குமரன் 
+ 1-இல் செல்வி 
+ 2-இல் முகிலன்
+ 3-இல் யாழினி 
+ 
 
 One way to think about indexes is distance. Adam is first in the array, so he is zero units away from himself. Billy is next, only 1 unit away from Adam. Molly is 2 units away, and Sally is 3 units away from Adam. You could also think of array indexes like a number line, which also starts at zero.
 
