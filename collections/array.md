@@ -3,12 +3,13 @@
 
 அணி, அல்லது அணிகள், என்பது வரிசைப்படுத்தப்பட்ட, இடம் வழி அணுகும் வகை தரவமைப்புகள்; இது போன்ற அணிகளில் எந்த வகை தரவுகளையும் சேர்க்கலாம். இவைகளை வரிசைப்படுத்தலாம் என்றல் இதுவே பொருள்: பள்ளியில் காலை கூட்டத்தின் பின்பு வயது அல்லது பெயர் அகரமுதலி வரிசையில் நின்று வகுப்பறையில் நுழைவீர்கள். அணிகளும் அது போலவே. உங்கள் பள்ளி வகுப்பு மாணவர்களை வயது, பெயர், இடை, உயரம் என்ற அம்சங்களால் வரிசைப்படுத்தலாம். அதாவது இந்த நன்கு அம்சங்களில் ஏதேனும் ஒரு வகை இதனை கொண்டு வரிசைப்படுத்தலாம். இதனை நிரல் என்று எழுதினால், அது 'அணிகள்' என்பதால் குறிக்கப்படும்.
 
-வரிசையில நாலு பிள்ளைகள் இருங்காங்க என்று கொள்ளவோம்: குமரன், முகிலன், செல்வி, மட்டும் யாழினி. இவர்களை அகரமுதலி படி  வரிசைப்படுத்தலாம். இது 
-
-That means that Adam is number 1, Billy is number 2, Molly is number 3 and Sally is number 4. These are four kids in an ordered line. If we were to write this as an array, it would look like this
-
+வரிசையில நாலு பிள்ளைகள் இருங்காங்க என்று கொள்ளவோம்: குமரன், முகிலன், செல்வி, மட்டும் யாழினி. நம்ம இந்த குழந்தைகளின் பெயரை எழுதியபடியே 
+ இவற்றை இடம் சூட்டும் படி எண் இடலாம்.
+ இப்போது குமரன் 1. முகிலன் 2. செல்வி 3. யாழினி 4.
+ இந்த நாலு பிள்ளைகளும் வரிசையில் நிக்க இதையே அணியில் குறியீட்டால் 
+இப்படி எழுதலாம் 
 ```ruby
-["Adam", "Billy", "Molly", "Sally"]
+ [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
 ```
 Arrays are noted using square brackets, with elements separated by a comma. So an array is in order, and it is also indexed. When a collection is indexed, it means that each item has a specific number that relates to its order in line. The tricky part to remember is that computers start their index at zero. This means that Adam’s index is 0, Billy is 1, Molly is 2 and Sally is 3.
 
@@ -17,7 +18,7 @@ One way to think about indexes is distance. Adam is first in the array, so he is
 Here’s what our array looks like with its index.
 
 ```ruby
-kids_array = ["Adam", "Billy", "Molly", "Sally"]
+kids_array = [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
 # kids_array index => [0,1,2,3]
 ```
 
@@ -38,6 +39,8 @@ kids_array[3] = "Terry"
 kids_array
 => ["Adam", "Billy", "Molly", "Terry"]
 ```
+
+இவர்களை அகரமுதலி படி  வரிசைப்படுத்தலாம். இது ‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’ என்ற வரிசையில் வரும்.
 
 We can even add a new member to our array, like so.
 
