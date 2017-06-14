@@ -26,11 +26,11 @@ __பயிற்சி__
    end
    ```
 
-4) What will map do?
+4) கீழ் கொடுக்க பட்ட தொடர்புறு சார்பில் (map) என்ன மதிப்பு கணிக்கப்பட்டும் ?
    ```ruby
    numbers = [1,2,3,4,5]
    numbers.map { |num| num * 5 }
    ```
 
-5) Now what is the value of numbers?
+5) கேள்வி 4-இல் கணிக்கப்பட்ட மதிப்பு என்ன ?
 
