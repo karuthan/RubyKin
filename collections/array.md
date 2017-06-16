@@ -10,7 +10,7 @@
 இப்படி எழுதலாம் 
 ```ruby
  [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
-``
+```
 அணிகள் என்பதை குறியீடே '[' தொடக்கம்  மற்றும்  ']' முடிவ சதுர அடைப்பு குறிகளை பயன்படுத்தலாம்.  
 இந்த இரு சதுர அடைப்பு குறிகளுக்குள் நமது சிறுவர்களின் பெயர்களை சரங்களாக எழுதுங்கள். 
 
@@ -24,9 +24,13 @@
  3-இல் யாழினி 
  
 
-One way to think about indexes is distance. Adam is first in the array, so he is zero units away from himself. Billy is next, only 1 unit away from Adam. Molly is 2 units away, and Sally is 3 units away from Adam. You could also think of array indexes like a number line, which also starts at zero.
+இடம் சூட்டும் எண் என்பது ஒரு தொலைதூரத்தை அளப்பதற்கு சமமான அளவு. குமரன் என்ற சரம் மதிப்பு 
+இடம் 0-இல் உள்ளது. தொடர்ந்து செல்வி ஒன்றிலும்,  முகிலன் இரண்டிலும் கடைசியாக யாழினி மூன்றிலும் இடம் சூட்டி 
+அணியில் சேமிக்கப்பட்டது.
 
-Here’s what our array looks like with its index.
+கீழே சிறுவர்களின் பெயர்களை அணியி இட்டபடி அதனை சம்பந்த பட்ட இடம் சூட்டு எண்களை 
+மற்றோரு அணியில் சேமித்தால் அது  
+kids_array_index என்று தோன்றும். 
 
 ```ruby
 kids_array = [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
