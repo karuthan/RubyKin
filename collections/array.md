@@ -9,7 +9,7 @@
  இந்த நாலு பிள்ளைகளும் வரிசையில் நிக்க இதையே அணியில் குறியீட்டால் 
 இப்படி எழுதலாம் 
 ```ruby
- [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
+ ["குமரன்", "செல்வி", "முகிலன்", "யாழினி"]
 ```
 அணிகள் என்பதை குறியீடே '[' தொடக்கம்  மற்றும்  ']' முடிவ சதுர அடைப்பு குறிகளை பயன்படுத்தலாம்.  
 இந்த இரு சதுர அடைப்பு குறிகளுக்குள் நமது சிறுவர்களின் பெயர்களை சரங்களாக எழுதுங்கள். 
@@ -33,7 +33,7 @@
 kids_array_index என்று தோன்றும். 
 
 ```ruby
-kids_array = [‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’]
+kids_array = ["குமரன்", "செல்வி", "முகிலன்", "யாழினி"]
 # kids_array index => [0,1,2,3]
 ```
 
@@ -41,7 +41,7 @@ If we want the first element in our ordered array, we look it up by the first in
 
 ```ruby
 kids_array[0]
-=> "Adam"
+=> "குமரன்"
 ```
 
 You can think of the brackets like big monkey paws, they clamp down on both sides of the element (whatever the object) and hold it. If you type `kids_array[0]` you are asking Ruby to get the first spot. In this case, Ruby would tell you that Adam is at index zero.
@@ -49,10 +49,10 @@ You can think of the brackets like big monkey paws, they clamp down on both side
 We can also use the `[ ]` method to add or change an element in our array. For example, if Sally left to another school and Terry replaced her spot, we could remove Sally and replace her with Terry by using the `[ ]` method on the correct index number.
 
 ```ruby
-kids_array = ["Adam", "Billy", "Molly", "Sally"]
-kids_array[3] = "Terry"
+kids_array = ["குமரன்", "செல்வி", "முகிலன்", "யாழினி"]
+kids_array[3] = "கருப்பாயி"
 kids_array
-=> ["Adam", "Billy", "Molly", "Terry"]
+=> ["குமரன்", "செல்வி", "முகிலன்", "கருப்பாயி"]
 ```
 
 இவர்களை அகரமுதலி படி  வரிசைப்படுத்தலாம். இது ‘குமரன்’, ‘செல்வி’, ‘முகிலன்’, ‘யாழினி’ என்ற வரிசையில் வரும்.
@@ -60,23 +60,23 @@ kids_array
 We can even add a new member to our array, like so.
 
 ```ruby
-kids_array[4] = "Zoe"
+kids_array[4] = "ஜூயீ"
 kids_array
-=> ["Adam", "Billy", "Molly", "Terry", "Zoe"]
+=> ["குமரன்", "செல்வி", "முகிலன்", "கருப்பாயி","ஜூயீ"]
 ```
 
 Arrays can contain numbers, strings and even other arrays!
 
 ```ruby
 number_array = [1,2,3,4,5]
-string_array = ["Frank", "Suzy", "Doug", "Jane"]
+string_array = ["அல்லி", "பாலன்", "வள்ளி", "தேவன்"]
 mixed_array = [number_array, "a string", 13]
 ```
 
 If we had an array _inside_ another array, we can use the square brackets in a similar way to access our data. In the example below, in order to grab the number 3, we use square brackets to access the first element in our array (which is another array). We then use another bracket to access the number three, the second element in that array.
 
 ```ruby
-lots_of_arrays = [[1,2],"string","test"]
+lots_of_arrays = [[1,2],"சரம்","தேர்வுசெய்"]
 lots_of_arrays[0][1]
 => 2
 ```
@@ -85,33 +85,33 @@ Ruby gives us some cool methods to call on arrays, like `sort`. When we call the
 
 ```ruby
 string_array.sort
-=> ["Doug", "Frank", "Jane", "Suzy"]
+=> ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"] 
 ```
 
 However, unless we call `sort!` on the array, the order will not change permanently and our array will stay in its original state. When we ask to sort without an exclamation mark, only the result is sorted (not the actual array). When we call `sort!` with the exclamation mark, the _actual_ array is sorted in the new alphabetized order.
 
 ```ruby
 string_array
-=> ["Frank", "Suzy", "Doug", "Jane"]
+=> ["அல்லி", "பாலன்", "வள்ளி", "தேவன்"]
 
 string_array.sort!
-=> ["Doug", "Frank", "Jane", "Suzy"]
+=> ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"]
 ```
 
 Before we get into more examples about arrays, it’s important to mention one of Ruby’s widely used array methods--the shovel. The shovel is written with two less-than symbols `<<` that are used to insert items to the end of an array. Let’s take the example above and add Bill to our string array.
 
 ```ruby
 string_array
-=> ["Doug", "Frank", "Jane", "Suzy"]
-string_array << "Bill"
-=> ["Doug", "Frank", "Jane", "Suzy", "Bill"]
+=> ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"]
+string_array << "கபிலன்"
+=> ["அல்லி", "தேவன்", "பாலன்", "வள்ளி", "கபிலன்"]
 ```
 
-We could have added Bill with the push method as well.
+We could have added கபிலன் with the push method as well.
 
 ```ruby
-string_array.push("Bill")
-=> ["Doug", "Frank", "Jane", "Suzy", "Bill"]
+string_array.push("கபிலன்")
+=> ["அல்லி", "தேவன்", "பாலன்", "வள்ளி", "கபிலன்"]
 ```
 
 The shovel method is favored by Rubyists and it’s good to know how it works. More examples on arrays below.
