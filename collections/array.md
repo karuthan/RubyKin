@@ -37,14 +37,16 @@ kids_array = ["குமரன்", "செல்வி", "முகிலன்
 # kids_array index => [0,1,2,3]
 ```
 
-If we want the first element in our ordered array, we look it up by the first index. The first index in any array is zero. We can find an element by its index using the `[ ]` method.
+வரிசைப்படுத்திய அணியில் முதல் இலக்கில் உள்ள மதிப்பை எடுக்க,
+அதாவது இடம் சூட்டி எண் பூஜ்யம், இதில் உள்ள மதிப்பை பெற இப்படி நிரல் குறிமுறை செய்யணும்,
 
 ```ruby
 kids_array[0]
 => "குமரன்"
 ```
 
-You can think of the brackets like big monkey paws, they clamp down on both sides of the element (whatever the object) and hold it. If you type `kids_array[0]` you are asking Ruby to get the first spot. In this case, Ruby would tell you that Adam is at index zero.
+சதுர அடைப்பு குறியீடு என்பது ஒரு அணி வகையான மாறியில் உள்ள குறிப்பிட்ட இடம் சூட்டு எண்ணில் உள்ள மதிப்பை 
+குறித்து எடுக்கும் வண்ணம் அமையும்.
 
 We can also use the `[ ]` method to add or change an element in our array. For example, if Sally left to another school and Terry replaced her spot, we could remove Sally and replace her with Terry by using the `[ ]` method on the correct index number.
 
