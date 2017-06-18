@@ -114,13 +114,12 @@ string_array << "கபிலன்"
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி", "கபிலன்"]
 ```
 
-We could have added கபிலன் with the push method as well.
-
+push என்கிற சார்பின் பயன்படுத்தி நமது அணியில் சேற்றிருக்கலாம். 
+அதாவது:
 ```ruby
 string_array.push("கபிலன்")
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி", "கபிலன்"]
 ```
-
-The shovel method is favored by Rubyists and it’s good to know how it works. More examples on arrays below.
+.
 
 <div style="height:30px;"></div>
