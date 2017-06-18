@@ -13,9 +13,17 @@ FLIST = []
 def get_words(filename):
     with codecs.open(filename,"r","UTF-8") as fp:
         data  = fp.read()
-        nwords = len(re.split("\s+",data))
-        ntamil = len( tamil.utf8.get_tamil_words( tamil.utf8.get_letters(data) ) )
-        return (nwords,ntamil)
+        words = re.split("\s+",data)
+        nwords = len(words)
+        njunk = 0
+        for w in words:
+            if re.search("^\d+",w):
+                njunk+=1
+            elif re.search("^[-|+|/|\(|\)|\[|\]]+",w):
+                njunk+=1
+        letters = tamil.utf8.get_letters(data)
+        ntamil = len( tamil.utf8.get_tamil_words( letters ) )
+        return (nwords-njunk,ntamil)
     return (0,0)
 
 def process(fd):
