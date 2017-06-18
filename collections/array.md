@@ -88,31 +88,40 @@ lots_of_arrays[0][1]
 => 2
 ```
 
-Ruby gives us some cool methods to call on arrays, like `sort`. When we call the sort method on our string_array, Ruby sorts our array alphabetically. In Ruby, whenever we use the sort method, the computer understands we want to see the entire array alphabetized.
-
+ரூபி மொழி நமக்கு அணிகள் என்ற தரவமைப்பில் பல உள்ளடக்கிய 
+அணிகளுக்கான சார்புகளை தருகிறது.  இவற்றில் வரிசைப்படுத்துவதற்க்கானது sort என்றும் இதனை செயல்படுத்தலாம்.
+உதாரணம்,
 ```ruby
 string_array.sort
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"] 
 ```
 
-However, unless we call `sort!` on the array, the order will not change permanently and our array will stay in its original state. When we ask to sort without an exclamation mark, only the result is sorted (not the actual array). When we call `sort!` with the exclamation mark, the _actual_ array is sorted in the new alphabetized order.
+இந்த அணி வரிசை படுத்தப்பட்டு கணினி திரையில் அச்சிட்டது. ஆனால் இது கணினி நினைவில் மாறாமல் இருக்கும்.
+இதனை, அதாவது _string_array_ என்ற மாறியை வரிசைப்படுத்தி 
+அதே கணினி நினைவில் சேமிக்க 
+ `sort!` என்று அழைக்க வேண்டும். 
+ 
+ இதனை அழைக்கும் முன்பே பாருங்கள் 
 
 ```ruby
 string_array
 => ["அல்லி", "பாலன்", "வள்ளி", "தேவன்"]
 
+அழைத்தபின் பாருங்கள்: 
 string_array.sort!
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"]
 ```
 
-Before we get into more examples about arrays, it’s important to mention one of Ruby’s widely used array methods--the shovel. The shovel is written with two less-than symbols `<<` that are used to insert items to the end of an array. Let’s take the example above and add Bill to our string array.
-
+அடுத்து ரூபி மொழியில் திணி (shovel) << என்கிற செயற்குறியை கொண்டு எப்படி ஒரு அணியின் கடைசியில் ஒரு மதிப்பை அந்த 
+அணியில் இணைப்பது என்று பார்ப்போம்,
 ```ruby
 string_array
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி"]
 string_array << "கபிலன்"
 => ["அல்லி", "தேவன்", "பாலன்", "வள்ளி", "கபிலன்"]
 ```
+இந்த மண்வாரி << என்ற செயற்குறி ஒவ்வொரு தரவமைப்புக்கும் தனிப்பட்ட செயல் செய்யும் வகை ரூபி மொழியில் 
+
 
 push என்கிற சார்பின் பயன்படுத்தி நமது அணியில் சேற்றிருக்கலாம். 
 அதாவது:
