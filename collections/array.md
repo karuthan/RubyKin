@@ -73,8 +73,15 @@ string_array = ["அல்லி", "பாலன்", "வள்ளி", "தே
 mixed_array = [number_array, "a string", 13]
 ```
 
-If we had an array _inside_ another array, we can use the square brackets in a similar way to access our data. In the example below, in order to grab the number 3, we use square brackets to access the first element in our array (which is another array). We then use another bracket to access the number three, the second element in that array.
-
+ ஒரு அணி மற்றோரு அணியை மதிப்பாக கொள்ளலாம்.
+ உதாரணத்துக்கு கீழே உள்ள நிரலில் அணி lots_of_arrays என்பதில் முதல் மதிப்பை 
+ எடுக்க எப்படி எழுதலாம்:
+    lots_of_arrays[0]   
+ இதன் மதிப்போ 
+    [1,2]
+ என்ற அணி. இதன் இரண்டாம் இடம் சூட்டு மதிப்பை அணுக இப்படி எழுதவேண்டும் 
+  lots_of_arrays[0][1]
+இவை அனைத்தையும் சேர்த்து பார்த்தால் இப்படியான நிரல் துண்டு அமையும்.
 ```ruby
 lots_of_arrays = [[1,2],"சரம்","தேர்வுசெய்"]
 lots_of_arrays[0][1]
